@@ -1,0 +1,233 @@
+{
+  "name": "Responsible research",
+  "children": [
+    {
+      "name": "Research ethics",
+      "category": "ethics",
+      "children": [
+        {
+          "name": "Ethical issues",
+          "children": [
+            { "name": "Humans and participants" },
+            { "name": "Animals" },
+            { "name": "Fundamental rights" },
+            { "name": "Misuse and societal impacts" }
+          ]
+        },
+        {
+          "name": "Processes",
+          "children": [
+            { "name": "Ethics self-assessment" },
+            { "name": "Ethical review" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Research integrity",
+      "category": "integrity",
+      "children": [
+        {
+          "name": "Responsible conduct of research",
+          "children": [
+            { "name": "Honesty and reliability" },
+            { "name": "Authorship and attribution" },
+            { "name": "Conflicts of interest" }
+          ]
+        },
+        {
+          "name": "Processes",
+          "children": [
+            { "name": "Integrity guidance" },
+            { "name": "Misconduct procedures" }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name": "Research compliance",
+      "category": "compliance",
+      "children": [
+
+        {
+          "name": "Legal and regulatory compliance",
+          "children": [
+
+            {
+              "name": "Data protection / GDPR",
+              "children": [
+                { "name": "DPIA / privacy documentation" }
+              ]
+            },
+
+            {
+              "name": "AI regulation",
+              "children": [
+                { "name": "AI compliance assessment" }
+              ]
+            },
+
+            {
+              "name": "Copyright and IPR"
+            },
+
+            {
+              "name": "Export control and sanctions",
+              "children": [
+                { "name": "Export-control assessment" }
+              ]
+            },
+
+            {
+              "name": "Sector-specific regulation",
+              "children": [
+                { "name": "Permits / authorisations" }
+              ]
+            }
+
+          ]
+        },
+
+        {
+          "name": "Contractual and funder compliance",
+          "children": [
+
+            {
+              "name": "Grant requirements",
+              "children": [
+                { "name": "Reporting / audit documentation" }
+              ]
+            },
+
+            {
+              "name": "Research and collaboration agreements",
+              "children": [
+                { "name": "Confidentiality / NDA" }
+              ]
+            },
+
+            {
+              "name": "Software, data and service licences"
+            }
+
+          ]
+        },
+
+        {
+          "name": "Institutional compliance",
+          "children": [
+
+            { "name": "University policies" },
+
+            {
+              "name": "Digital compliance process",
+              "children": [
+                {
+                  "name": "Assessment of IT systems, digital services and licences"
+                }
+              ]
+            },
+
+            { "name": "Procurement" },
+
+            { "name": "Information security" }
+
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "name": "Research security",
+      "category": "security",
+      "children": [
+
+        {
+          "name": "Research-security risks",
+          "children": [
+
+            {
+              "name": "Partner risks",
+              "children": [
+                { "name": "Partner screening / due diligence" }
+              ]
+            },
+
+            { "name": "Knowledge / technology transfer" },
+
+            { "name": "Foreign interference" },
+
+            { "name": "Misuse / dual use" }
+
+          ]
+        },
+
+        {
+          "name": "Processes",
+          "children": [
+            { "name": "Research-security assessment" }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "name": "Research safety",
+      "category": "safety",
+      "children": [
+
+        {
+          "name": "Safety risks",
+          "children": [
+            { "name": "Laboratory / occupational safety" },
+            { "name": "Biological / chemical / radiation safety" },
+            { "name": "Environmental safety" }
+          ]
+        },
+
+        {
+          "name": "Processes",
+          "children": [
+            { "name": "Safety assessment / permits" }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      "name": "Open science and stewardship",
+      "category": "open",
+      "children": [
+
+        {
+          "name": "Research data management",
+          "children": [
+            { "name": "Data Management Plan" }
+          ]
+        },
+
+        {
+          "name": "Publication and dissemination",
+          "children": [
+            { "name": "Open access" }
+          ]
+        },
+
+        {
+          "name": "Preservation and reuse",
+          "children": [
+            { "name": "Repository deposit / archiving" }
+          ]
+        }
+
+      ]
+    }
+
+  ]
+}
+

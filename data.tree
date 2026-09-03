@@ -1,0 +1,163 @@
+<root>: {}
+|-- "name": "Responsible research"
+`-- "children": []
+    |-- [0]: {}
+    |   |-- "name": "Research ethics"
+    |   |-- "category": "ethics"
+    |   `-- "children": []
+    |       |-- [0]: {}
+    |       |   |-- "name": "Ethical issues"
+    |       |   `-- "children": []
+    |       |       |-- [0]: {}
+    |       |       |   `-- "name": "Humans and participants"
+    |       |       |-- [1]: {}
+    |       |       |   `-- "name": "Animals"
+    |       |       |-- [2]: {}
+    |       |       |   `-- "name": "Fundamental rights"
+    |       |       `-- [3]: {}
+    |       |           `-- "name": "Misuse and societal impacts"
+    |       `-- [1]: {}
+    |           |-- "name": "Processes"
+    |           `-- "children": []
+    |               |-- [0]: {}
+    |               |   `-- "name": "Ethics self-assessment"
+    |               `-- [1]: {}
+    |                   `-- "name": "Ethical review"
+    |-- [1]: {}
+    |   |-- "name": "Research integrity"
+    |   |-- "category": "integrity"
+    |   `-- "children": []
+    |       |-- [0]: {}
+    |       |   |-- "name": "Responsible conduct of research"
+    |       |   `-- "children": []
+    |       |       |-- [0]: {}
+    |       |       |   `-- "name": "Honesty and reliability"
+    |       |       |-- [1]: {}
+    |       |       |   `-- "name": "Authorship and attribution"
+    |       |       `-- [2]: {}
+    |       |           `-- "name": "Conflicts of interest"
+    |       `-- [1]: {}
+    |           |-- "name": "Processes"
+    |           `-- "children": []
+    |               |-- [0]: {}
+    |               |   `-- "name": "Integrity guidance"
+    |               `-- [1]: {}
+    |                   `-- "name": "Misconduct procedures"
+    |-- [2]: {}
+    |   |-- "name": "Research compliance"
+    |   |-- "category": "compliance"
+    |   `-- "children": []
+    |       |-- [0]: {}
+    |       |   |-- "name": "Legal and regulatory compliance"
+    |       |   `-- "children": []
+    |       |       |-- [0]: {}
+    |       |       |   |-- "name": "Data protection / GDPR"
+    |       |       |   `-- "children": []
+    |       |       |       `-- [0]: {}
+    |       |       |           `-- "name": "DPIA / privacy documentation"
+    |       |       |-- [1]: {}
+    |       |       |   |-- "name": "AI regulation"
+    |       |       |   `-- "children": []
+    |       |       |       `-- [0]: {}
+    |       |       |           `-- "name": "AI compliance assessment"
+    |       |       |-- [2]: {}
+    |       |       |   `-- "name": "Copyright and IPR"
+    |       |       |-- [3]: {}
+    |       |       |   |-- "name": "Export control and sanctions"
+    |       |       |   `-- "children": []
+    |       |       |       `-- [0]: {}
+    |       |       |           `-- "name": "Export-control assessment"
+    |       |       `-- [4]: {}
+    |       |           |-- "name": "Sector-specific regulation"
+    |       |           `-- "children": []
+    |       |               `-- [0]: {}
+    |       |                   `-- "name": "Permits / authorisations"
+    |       |-- [1]: {}
+    |       |   |-- "name": "Contractual and funder compliance"
+    |       |   `-- "children": []
+    |       |       |-- [0]: {}
+    |       |       |   |-- "name": "Grant requirements"
+    |       |       |   `-- "children": []
+    |       |       |       `-- [0]: {}
+    |       |       |           `-- "name": "Reporting / audit documentation"
+    |       |       |-- [1]: {}
+    |       |       |   |-- "name": "Research and collaboration agreements"
+    |       |       |   `-- "children": []
+    |       |       |       `-- [0]: {}
+    |       |       |           `-- "name": "Confidentiality / NDA"
+    |       |       `-- [2]: {}
+    |       |           `-- "name": "Software, data and service licences"
+    |       `-- [2]: {}
+    |           |-- "name": "Institutional compliance"
+    |           `-- "children": []
+    |               |-- [0]: {}
+    |               |   `-- "name": "University policies"
+    |               |-- [1]: {}
+    |               |   |-- "name": "Digital compliance process"
+    |               |   `-- "children": []
+    |               |       `-- [0]: {}
+    |               |           `-- "name": "Assessment of IT systems, digital services and licences"
+    |               |-- [2]: {}
+    |               |   `-- "name": "Procurement"
+    |               `-- [3]: {}
+    |                   `-- "name": "Information security"
+    |-- [3]: {}
+    |   |-- "name": "Research security"
+    |   |-- "category": "security"
+    |   `-- "children": []
+    |       |-- [0]: {}
+    |       |   |-- "name": "Research-security risks"
+    |       |   `-- "children": []
+    |       |       |-- [0]: {}
+    |       |       |   |-- "name": "Partner risks"
+    |       |       |   `-- "children": []
+    |       |       |       `-- [0]: {}
+    |       |       |           `-- "name": "Partner screening / due diligence"
+    |       |       |-- [1]: {}
+    |       |       |   `-- "name": "Knowledge / technology transfer"
+    |       |       |-- [2]: {}
+    |       |       |   `-- "name": "Foreign interference"
+    |       |       `-- [3]: {}
+    |       |           `-- "name": "Misuse / dual use"
+    |       `-- [1]: {}
+    |           |-- "name": "Processes"
+    |           `-- "children": []
+    |               `-- [0]: {}
+    |                   `-- "name": "Research-security assessment"
+    |-- [4]: {}
+    |   |-- "name": "Research safety"
+    |   |-- "category": "safety"
+    |   `-- "children": []
+    |       |-- [0]: {}
+    |       |   |-- "name": "Safety risks"
+    |       |   `-- "children": []
+    |       |       |-- [0]: {}
+    |       |       |   `-- "name": "Laboratory / occupational safety"
+    |       |       |-- [1]: {}
+    |       |       |   `-- "name": "Biological / chemical / radiation safety"
+    |       |       `-- [2]: {}
+    |       |           `-- "name": "Environmental safety"
+    |       `-- [1]: {}
+    |           |-- "name": "Processes"
+    |           `-- "children": []
+    |               `-- [0]: {}
+    |                   `-- "name": "Safety assessment / permits"
+    `-- [5]: {}
+        |-- "name": "Open science and stewardship"
+        |-- "category": "open"
+        `-- "children": []
+            |-- [0]: {}
+            |   |-- "name": "Research data management"
+            |   `-- "children": []
+            |       `-- [0]: {}
+            |           `-- "name": "Data Management Plan"
+            |-- [1]: {}
+            |   |-- "name": "Publication and dissemination"
+            |   `-- "children": []
+            |       `-- [0]: {}
+            |           `-- "name": "Open access"
+            `-- [2]: {}
+                |-- "name": "Preservation and reuse"
+                `-- "children": []
+                    `-- [0]: {}
+                        `-- "name": "Repository deposit / archiving"

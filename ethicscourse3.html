@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Responsible Research – Pedagogical Ontology</title>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+
+<style>
+  :root {
+    --background: #ffffff;
+    --text: #222222;
+    --muted: #666666;
+    --link: #b8bec6;
+    --label-bg: rgba(255, 255, 255, 0.82);
+  }
+
+  body {
+    margin: 0;
+    font-family: Inter, Arial, sans-serif;
+    background: var(--background);
+    color: var(--text);
+  }
+
+  header {
+    padding: 20px 28px 10px 28px;
+  }
+
+  h1 {
+    margin: 0 0 6px 0;
+    font-size: 24px;
+    font-weight: 650;
+  }
+
+  p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  #controls {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    padding: 12px 28px;
+  }
+
+  button {
+    font: inherit;
+    font-size: 13px;
+    padding: 7px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #f5f5f5;
+  }
+
+  #legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 14px;
+    font-size: 12px;
+    color: var(--muted);
+  }
+
+  #legend span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  #legend .swatch {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  #tree-container {
+    width: 100%;
+    overflow: auto;
+    border-top: 1px solid #eeeeee;
+  }
+
+  svg {
+    display: block;
+  }
+
+  .link {
+    fill: none;
+    stroke: var(--link);
+    stroke-width: 1.4px;
+  }
+
+  .node circle {
+    stroke-width: 2px;
+  }
+
+  .node text {
+    font-size: 13px;
+    dominant-baseline: middle;
+    fill: var(--text);
+  }
+
+  .node a text {
+    fill: #1a5fb4;
+    text-decoration: underline;
+  }
+
+  .node .label-bg {
+    fill: var(--label-bg);
+  }
+
+  .node.depth-0 text {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .node.depth-1 text {
+    font-size: 14px;
+    font-weight: 650;
+  }
+
+  .node.clickable {
+    cursor: pointer;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Responsible research</h1>
+  <p>
+    Pedagogical ontology, generated from tree.md. Click nodes to expand or collapse branches.
+  </p>
+</header>
+
+<div id="controls">
+  <button id="overview">Overview</button>
+  <button id="expand-all">Expand all</button>
+  <button id="collapse-all">Collapse all</button>
+  <button id="save-svg">Save as SVG</button>
+  <div id="legend"></div>
+</div>
+
+<div id="tree-container">
+  <svg id="tree"></svg>
+</div>
+
+<script>
+
+/* ============================================================
+   DATA
+   (generated from tree.md via tree_md_to_json.py)
+   ============================================================ */
+
+const data = {
+  "name": "Responsible research",
+  "children": [
+    {
+      "name": "Research ethics (3)",
+      "children": [
+        {
+          "name": "Ethical issues",
+          "children": [
+            {
+              "name": "Ethical thinking (1.1)"
+            },
+            {
+              "name": "Humans and participants (6.6)"
+            },
+            {
+              "name": "Global south (3.3)"
+            },
+            {
+              "name": "Nature and the environment (3.4)"
+            },
+            {
+              "name": "Animals (3.5)"
+            },
+            {
+              "name": "Artistic research (6.3)"
+            },
+            {
+              "name": "Artificial Intelligence (6.5)"
+            },
+            {
+              "name": "Fundamental rights (link)"
+            }
+          ]
+        },
+        {
+          "name": "Processes",
+          "children": [
+            {
+              "name": "Ethics self-assessment (link)"
+            },
+            {
+              "name": "Ethical review",
+              "children": [
+                {
+                  "name": "Non-medical research ethics review (3.1)",
+                  "children": [
+                    {
+                      "name": "Full review"
+                    },
+                    {
+                      "name": "Concise process"
+                    }
+                  ]
+                },
+                {
+                  "name": "Medical research ethics review (3.2)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research integrity (2)",
+      "children": [
+        {
+          "name": "Responsible conduct of research (2.1)",
+          "children": [
+            {
+              "name": "Honesty and reliability (link)"
+            },
+            {
+              "name": "Authorship and attribution (2.3)"
+            },
+            {
+              "name": "Freedom of research (2.6)"
+            },
+            {
+              "name": "Conflicts of interest (link)"
+            },
+            {
+              "name": "Transparency and reproducibility (missing)",
+              "children": [
+                {
+                  "name": "Pre-registration, registered reports (missing)"
+                }
+              ]
+            },
+            {
+              "name": "Generative AI tools (2.4)"
+            }
+          ]
+        },
+        {
+          "name": "Open science and stewardship",
+          "children": [
+            {
+              "name": "Research data management (2.5)",
+              "children": [
+                {
+                  "name": "Data Management Plan"
+                }
+              ]
+            },
+            {
+              "name": "Publication and dissemination (4.3)",
+              "children": [
+                {
+                  "name": "Open access"
+                }
+              ]
+            },
+            {
+              "name": "Preservation and reuse (2.5)",
+              "children": [
+                {
+                  "name": "Repository deposit / archiving"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Processes",
+          "children": [
+            {
+              "name": "Integrity guidance ([link](https://vastuullinentiede.fi/fi))"
+            },
+            {
+              "name": "Misconduct procedures (2.2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research security",
+      "children": [
+        {
+          "name": "Research-security risks (5.2)",
+          "children": [
+            {
+              "name": "Partner risks (5.2)",
+              "children": [
+                {
+                  "name": "Partner screening / due diligence"
+                }
+              ]
+            },
+            {
+              "name": "Knowledge / technology transfer (link)"
+            },
+            {
+              "name": "Foreign interference (5.2)"
+            },
+            {
+              "name": "Misuse / dual use (5.2)"
+            },
+            {
+              "name": "Cybersecurity (6.1)"
+            }
+          ]
+        },
+        {
+          "name": "Processes",
+          "children": [
+            {
+              "name": "Research-security assessment (link)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research safety",
+      "children": [
+        {
+          "name": "Safety risks (6.2)",
+          "children": [
+            {
+              "name": "Laboratory / occupational safety"
+            },
+            {
+              "name": "Biological / chemical / radiation safety"
+            },
+            {
+              "name": "Environmental safety"
+            }
+          ]
+        },
+        {
+          "name": "Neuroimaging at Aalto (6.4)"
+        },
+        {
+          "name": "Processes",
+          "children": [
+            {
+              "name": "Safety assessment / permits (link)"
+            },
+            {
+              "name": "Safety trainings",
+              "children": [
+                {
+                  "name": "School of Chemistry (link)"
+                },
+                {
+                  "name": "MRI safety course (link)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research compliance",
+      "children": [
+        {
+          "name": "Legal and regulatory compliance (5)",
+          "children": [
+            {
+              "name": "Data protection / GDPR (5.1)",
+              "children": [
+                {
+                  "name": "DPIA / privacy documentation"
+                }
+              ]
+            },
+            {
+              "name": "Export control and sanctions (5.2)",
+              "children": [
+                {
+                  "name": "Export-control assessment"
+                }
+              ]
+            },
+            {
+              "name": "AI regulation (5.3)",
+              "children": [
+                {
+                  "name": "AI compliance assessment"
+                }
+              ]
+            },
+            {
+              "name": "Copyright and IPR (5.4)"
+            },
+            {
+              "name": "Sector-specific regulation (missing?)",
+              "children": [
+                {
+                  "name": "Permits / authorisations (link?)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Contractual and funder compliance (4)",
+          "children": [
+            {
+              "name": "Corporate Collaborations (4.1)"
+            },
+            {
+              "name": "Research cooperation and funder requirements (4.2)",
+              "children": [
+                {
+                  "name": "Reporting / audit documentation"
+                }
+              ]
+            },
+            {
+              "name": "Research and collaboration agreements (link)",
+              "children": [
+                {
+                  "name": "Confidentiality / NDA"
+                }
+              ]
+            },
+            {
+              "name": "Publishers (4.3)"
+            }
+          ]
+        },
+        {
+          "name": "Institutional compliance",
+          "children": [
+            {
+              "name": "University policies (link to Aalto code of conduct)"
+            },
+            {
+              "name": "Digital compliance process",
+              "children": [
+                {
+                  "name": "Assessment of IT systems, digital services, and licences (link)"
+                }
+              ]
+            },
+            {
+              "name": "Procurements (link)"
+            },
+            {
+              "name": "Information security (6.1)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+
+/* ============================================================
+   SETTINGS
+   ============================================================ */
+
+/*
+  verticalSpacing:
+      distance between neighbouring nodes. d3.tree() with a fixed
+      nodeSize guarantees at least this much gap between any two
+      nodes at the same depth, so it must stay >= the tallest
+      label-bg plate (label text height + its padding) or two
+      sibling rows' plates could touch.
+
+  horizontalSpacing:
+      distance between hierarchy levels
+*/
+
+const verticalSpacing = 24;
+const horizontalSpacing = 170;
+
+const margin = {
+  top: 40,
+  right: 260,
+  bottom: 40,
+  left: 50
+};
+
+
+/* ============================================================
+   CREATE HIERARCHY
+   ============================================================ */
+
+const root = d3.hierarchy(data);
+
+let nextId = 0;
+
+root.each(d => {
+  d.id = ++nextId;
+
+  /*
+    Propagate the top-level branch name downwards so every
+    descendant can be colored by which of the six domains
+    it belongs to.
+  */
+
+  if (d.depth === 1) {
+    d.branch = d.data.name;
+  } else if (d.parent) {
+    d.branch = d.parent.branch;
+  }
+});
+
+
+/* ============================================================
+   COLOURS
+   ============================================================ */
+
+/*
+  tree.md's top-level branches are not a fixed vocabulary --
+  a human can rename or reorder them. Colour by branch name
+  using a qualitative palette instead of a hardcoded map, so
+  this keeps working whatever the current top-level names are.
+*/
+
+const branchNames = root.children.map(d => d.data.name);
+
+const colorScale = d3.scaleOrdinal()
+  .domain(branchNames)
+  .range(d3.schemeTableau10);
+
+function nodeColor(d) {
+
+  if (d.depth === 0) {
+    return "#333333";
+  }
+
+  return colorScale(d.branch) || "#777777";
+}
+
+
+/* ----------------------------------------------------------
+   LEGEND
+   ---------------------------------------------------------- */
+
+const legend = d3.select("#legend");
+
+branchNames.forEach(name => {
+
+  const item = legend.append("span");
+
+  item.append("span")
+    .attr("class", "swatch")
+    .style("background", colorScale(name));
+
+  item.append("span")
+    .text(name);
+
+});
+
+
+/* ============================================================
+   SVG
+   ============================================================ */
+
+const svg = d3.select("#tree");
+
+const g = svg.append("g");
+
+const linkLayer = g.append("g");
+
+const nodeLayer = g.append("g");
+
+
+/* ============================================================
+   TREE LAYOUT
+   ============================================================ */
+
+const tree = d3.tree()
+  .nodeSize([
+    verticalSpacing,
+    horizontalSpacing
+  ]);
+
+
+/* ============================================================
+   COLLAPSING FUNCTIONS
+   ============================================================ */
+
+function collapse(d) {
+
+  if (d.children) {
+
+    d._children = d.children;
+
+    d._children.forEach(collapse);
+
+    d.children = null;
+  }
+}
+
+
+function expand(d) {
+
+  if (d._children) {
+
+    d.children = d._children;
+
+    d._children = null;
+  }
+
+  if (d.children) {
+    d.children.forEach(expand);
+  }
+}
+
+
+/*
+  Overview:
+
+  Keep Responsible research,
+  the top-level domains,
+  and one level underneath them visible.
+
+  Everything deeper is collapsed.
+*/
+
+function setOverview() {
+
+  expand(root);
+
+  root.each(d => {
+
+    if (d.depth === 2 && d.children) {
+
+      d._children = d.children;
+      d.children = null;
+    }
+
+  });
+
+}
+
+
+/*
+  Collapse everything except the top-level domains.
+*/
+
+function collapseAll() {
+
+  expand(root);
+
+  root.children.forEach(d => collapse(d));
+}
+
+
+/*
+  Expand complete ontology.
+*/
+
+function expandAll() {
+  expand(root);
+}
+
+
+/* ============================================================
+   NODE LABEL HELPERS
+   ============================================================ */
+
+/*
+  Node names carry their own trailing parenthetical, e.g.
+  "Research ethics (3)", "Fundamental rights (link)", or
+  "Integrity guidance ([link](https://vastuullinentiede.fi/fi))".
+  Detect the two link forms here at render time rather than
+  storing a separate field in the data:
+
+    "... ([text](url))"  -> clickable, opens url
+    "... (link...)"       -> clickable placeholder, href "#"
+*/
+
+const MARKDOWN_LINK_RE =
+  /^(.*?)\s*\(\[([^\[\]]*)\]\(([^()]+)\)\)\s*$/;
+
+const LINK_PLACEHOLDER_RE =
+  /^.*\((link[^()]*)\)\s*$/i;
+
+function parseLabel(name) {
+
+  const markdownMatch = MARKDOWN_LINK_RE.exec(name);
+
+  if (markdownMatch) {
+    return {
+      text: `${markdownMatch[1]} (${markdownMatch[2]})`.trim(),
+      href: markdownMatch[3]
+    };
+  }
+
+  if (LINK_PLACEHOLDER_RE.test(name)) {
+    return { text: name, href: "#" };
+  }
+
+  return { text: name, href: null };
+}
+
+
+/* ============================================================
+   DRAW / UPDATE
+   ============================================================ */
+
+function update(source = root) {
+
+  tree(root);
+
+  const nodes = root.descendants();
+  const links = root.links();
+
+
+  /*
+    Find vertical extent of current tree.
+  */
+
+  let minX = Infinity;
+  let maxX = -Infinity;
+
+  nodes.forEach(d => {
+
+    if (d.x < minX) minX = d.x;
+    if (d.x > maxX) maxX = d.x;
+
+  });
+
+
+  const height =
+    maxX - minX +
+    margin.top +
+    margin.bottom;
+
+  const maxDepth =
+    d3.max(nodes, d => d.depth);
+
+  const width =
+    maxDepth * horizontalSpacing +
+    margin.left +
+    margin.right;
+
+
+  /*
+    Make SVG fit current visible tree.
+  */
+
+  svg
+    .attr("width", width)
+    .attr("height", height);
+
+
+  /*
+    Shift tree so the topmost node is visible.
+  */
+
+  g.attr(
+    "transform",
+    `translate(${margin.left}, ${margin.top - minX})`
+  );
+
+
+  /* ----------------------------------------------------------
+     LINKS
+     ---------------------------------------------------------- */
+
+  const linkGenerator = d3.linkHorizontal()
+    .x(d => d.y)
+    .y(d => d.x);
+
+
+  const link = linkLayer
+    .selectAll("path")
+    .data(
+      links,
+      d => d.target.id
+    );
+
+
+  link
+    .enter()
+    .append("path")
+    .attr("class", "link")
+    .attr(
+      "d",
+      d => linkGenerator({
+        source: source,
+        target: source
+      })
+    )
+    .merge(link)
+    .transition()
+    .duration(350)
+    .attr("d", linkGenerator);
+
+
+  link
+    .exit()
+    .transition()
+    .duration(250)
+    .attr(
+      "d",
+      d => linkGenerator({
+        source: source,
+        target: source
+      })
+    )
+    .remove();
+
+
+  /* ----------------------------------------------------------
+     NODES
+     ---------------------------------------------------------- */
+
+  const node = nodeLayer
+    .selectAll("g.node")
+    .data(
+      nodes,
+      d => d.id
+    );
+
+
+  const nodeEnter = node
+    .enter()
+    .append("g")
+    .attr(
+      "class",
+      d => `node depth-${d.depth}`
+    )
+    .attr(
+      "transform",
+      `translate(${source.y || 0},${source.x || 0})`
+    );
+
+
+  nodeEnter
+    .append("circle")
+    .attr("r", 6)
+    .attr("fill", "#ffffff");
+
+
+  /*
+    Label: plain text, or -- when the name carries a "(link)"
+    annotation -- a clickable <a> (real URL if the source spelled
+    one out as a markdown link, otherwise a "#" placeholder).
+
+    A background rect is sized to the rendered text's own bbox
+    (so it hugs single-line labels of any length) and inserted
+    behind it, giving long labels a readable plate over the
+    link lines they cross. verticalSpacing is kept tall enough
+    (see SETTINGS) that this plate never reaches a sibling row.
+  */
+
+  nodeEnter.each(function(d) {
+
+    const g = d3.select(this);
+    const parsed = parseLabel(d.data.name);
+
+    const backdrop = g
+      .append("rect")
+      .attr("class", "label-bg");
+
+    let labelHost = g;
+
+    if (parsed.href) {
+
+      labelHost = g.append("a")
+        .attr("xlink:href", parsed.href);
+
+      if (parsed.href !== "#") {
+        labelHost
+          .attr("target", "_blank")
+          .attr("rel", "noopener");
+      }
+    }
+
+    const text = labelHost
+      .append("text")
+      .attr("x", 12)
+      .text(parsed.text);
+
+    const box = text.node().getBBox();
+    const padX = 3;
+    const padY = 2;
+
+    backdrop
+      .attr("x", box.x - padX)
+      .attr("y", box.y - padY)
+      .attr("width", box.width + padX * 2)
+      .attr("height", box.height + padY * 2)
+      .attr("rx", 3);
+
+  });
+
+
+  /*
+    Clicking a node toggles its branch.
+  */
+
+  nodeEnter.on("click", function(event, d) {
+
+    if (event.target.closest("a")) {
+      return;
+    }
+
+    if (d.children) {
+
+      d._children = d.children;
+      d.children = null;
+
+    } else if (d._children) {
+
+      d.children = d._children;
+      d._children = null;
+
+    } else {
+
+      return;
+    }
+
+    update(d);
+  });
+
+
+  const nodeMerge = nodeEnter.merge(node);
+
+
+  nodeMerge
+    .classed(
+      "clickable",
+      d => Boolean(d.children || d._children)
+    );
+
+
+  nodeMerge
+    .transition()
+    .duration(350)
+    .attr(
+      "transform",
+      d => `translate(${d.y},${d.x})`
+    );
+
+
+  nodeMerge
+    .select("circle")
+    .attr("stroke", nodeColor)
+    .attr(
+      "fill",
+      d => d._children
+        ? nodeColor(d)
+        : "#ffffff"
+    )
+    .attr(
+      "r",
+      d => {
+        if (d.depth === 0) return 9;
+        if (d.depth === 1) return 7;
+        return 5;
+      }
+    );
+
+
+  nodeMerge
+    .select("text")
+    .attr(
+      "font-weight",
+      d => d.depth <= 1 ? 650 : 400
+    );
+
+
+  node
+    .exit()
+    .transition()
+    .duration(250)
+    .attr(
+      "transform",
+      `translate(${source.y},${source.x})`
+    )
+    .remove();
+
+
+  /*
+    Store current position for transitions.
+  */
+
+  root.each(d => {
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+}
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+document
+  .getElementById("overview")
+  .addEventListener("click", () => {
+
+    setOverview();
+    update(root);
+
+  });
+
+
+document
+  .getElementById("expand-all")
+  .addEventListener("click", () => {
+
+    expandAll();
+    update(root);
+
+  });
+
+
+document
+  .getElementById("collapse-all")
+  .addEventListener("click", () => {
+
+    collapseAll();
+    update(root);
+
+  });
+
+
+/* ============================================================
+   INITIAL VIEW
+   ============================================================ */
+
+setOverview();
+update(root);
+
+document
+  .getElementById("save-svg")
+  .addEventListener("click", saveSVG);
+
+
+function saveSVG() {
+
+  const original = document.getElementById("tree");
+
+  // Clone the SVG so we don't modify the displayed version
+  const clone = original.cloneNode(true);
+
+  // Required namespace for a standalone SVG file
+  clone.setAttribute("xmlns", "http://www.w3.org/2000/svg");
+  clone.setAttribute("xmlns:xlink", "http://www.w3.org/1999/xlink");
+
+  // Embed styles that would otherwise only exist in the HTML page
+  const style = document.createElementNS(
+    "http://www.w3.org/2000/svg",
+    "style"
+  );
+
+  style.textContent = `
+    .link {
+      fill: none;
+      stroke: #b8bec6;
+      stroke-width: 1.4px;
+    }
+
+    .node circle {
+      stroke-width: 2px;
+    }
+
+    .node text {
+      font-family: Inter, Arial, sans-serif;
+      font-size: 13px;
+      dominant-baseline: middle;
+      fill: #222222;
+    }
+
+    .node a text {
+      fill: #1a5fb4;
+      text-decoration: underline;
+    }
+
+    .node .label-bg {
+      fill: rgba(255, 255, 255, 0.82);
+    }
+
+    .node.depth-0 text {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .node.depth-1 text {
+      font-size: 14px;
+      font-weight: 650;
+    }
+  `;
+
+  clone.insertBefore(style, clone.firstChild);
+
+  // Give the SVG a white background if desired
+  const background = document.createElementNS(
+    "http://www.w3.org/2000/svg",
+    "rect"
+  );
+
+  background.setAttribute("x", "0");
+  background.setAttribute("y", "0");
+  background.setAttribute("width", "100%");
+  background.setAttribute("height", "100%");
+  background.setAttribute("fill", "white");
+
+  clone.insertBefore(background, clone.firstChild);
+
+  // Convert SVG DOM to text
+  const serializer = new XMLSerializer();
+  let source = serializer.serializeToString(clone);
+
+  // XML declaration
+  source =
+    '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    source;
+
+  // Create downloadable file
+  const blob = new Blob(
+    [source],
+    { type: "image/svg+xml;charset=utf-8" }
+  );
+
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement("a");
+
+  a.href = url;
+  a.download = "responsible-research-tree.svg";
+
+  document.body.appendChild(a);
+  a.click();
+
+  document.body.removeChild(a);
+
+  URL.revokeObjectURL(url);
+}
+
+</script>
+
+</body>
+</html>

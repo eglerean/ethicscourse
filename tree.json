@@ -1,0 +1,312 @@
+{
+  "name": "Responsible research",
+  "children": [
+    {
+      "name": "Research ethics (3)",
+      "children": [
+        {
+          "name": "Ethical issues",
+          "children": [
+            {
+              "name": "Ethical thinking (1.1)"
+            },
+            {
+              "name": "Humans and participants (6.6)"
+            },
+            {
+              "name": "Global south (3.3)"
+            },
+            {
+              "name": "Nature and the environment (3.4)"
+            },
+            {
+              "name": "Animals (3.5)"
+            },
+            {
+              "name": "Artistic research (6.3)"
+            },
+            {
+              "name": "Artificial Intelligence (6.5)"
+            },
+            {
+              "name": "Fundamental rights (link)"
+            }
+          ]
+        },
+        {
+          "name": "Processes",
+          "children": [
+            {
+              "name": "Ethics self-assessment (link)"
+            },
+            {
+              "name": "Ethical review",
+              "children": [
+                {
+                  "name": "Non-medical research ethics review (3.1)",
+                  "children": [
+                    {
+                      "name": "Full review"
+                    },
+                    {
+                      "name": "Concise process"
+                    }
+                  ]
+                },
+                {
+                  "name": "Medical research ethics review (3.2)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research integrity (2)",
+      "children": [
+        {
+          "name": "Responsible conduct of research (2.1)",
+          "children": [
+            {
+              "name": "Honesty and reliability (link)"
+            },
+            {
+              "name": "Authorship and attribution (2.3)"
+            },
+            {
+              "name": "Freedom of research (2.6)"
+            },
+            {
+              "name": "Conflicts of interest (link)"
+            },
+            {
+              "name": "Transparency and reproducibility (missing)",
+              "children": [
+                {
+                  "name": "Pre-registration, registered reports (missing)"
+                }
+              ]
+            },
+            {
+              "name": "Generative AI tools (2.4)"
+            }
+          ]
+        },
+        {
+          "name": "Open science and stewardship",
+          "children": [
+            {
+              "name": "Research data management (2.5)",
+              "children": [
+                {
+                  "name": "Data Management Plan"
+                }
+              ]
+            },
+            {
+              "name": "Publication and dissemination (4.3)",
+              "children": [
+                {
+                  "name": "Open access"
+                }
+              ]
+            },
+            {
+              "name": "Preservation and reuse (2.5)",
+              "children": [
+                {
+                  "name": "Repository deposit / archiving"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Processes",
+          "children": [
+            {
+              "name": "Integrity guidance ([link](https://vastuullinentiede.fi/fi))"
+            },
+            {
+              "name": "Misconduct procedures (2.2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research security",
+      "children": [
+        {
+          "name": "Research-security risks (5.2)",
+          "children": [
+            {
+              "name": "Partner risks (5.2)",
+              "children": [
+                {
+                  "name": "Partner screening / due diligence"
+                }
+              ]
+            },
+            {
+              "name": "Knowledge / technology transfer (link)"
+            },
+            {
+              "name": "Foreign interference (5.2)"
+            },
+            {
+              "name": "Misuse / dual use (5.2)"
+            },
+            {
+              "name": "Cybersecurity (6.1)"
+            }
+          ]
+        },
+        {
+          "name": "Processes",
+          "children": [
+            {
+              "name": "Research-security assessment (link)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research safety",
+      "children": [
+        {
+          "name": "Safety risks (6.2)",
+          "children": [
+            {
+              "name": "Laboratory / occupational safety"
+            },
+            {
+              "name": "Biological / chemical / radiation safety"
+            },
+            {
+              "name": "Environmental safety"
+            }
+          ]
+        },
+        {
+          "name": "Neuroimaging at Aalto (6.4)"
+        },
+        {
+          "name": "Processes",
+          "children": [
+            {
+              "name": "Safety assessment / permits (link)"
+            },
+            {
+              "name": "Safety trainings",
+              "children": [
+                {
+                  "name": "School of Chemistry (link)"
+                },
+                {
+                  "name": "MRI safety course (link)"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Research compliance",
+      "children": [
+        {
+          "name": "Legal and regulatory compliance (5)",
+          "children": [
+            {
+              "name": "Data protection / GDPR (5.1)",
+              "children": [
+                {
+                  "name": "DPIA / privacy documentation"
+                }
+              ]
+            },
+            {
+              "name": "Export control and sanctions (5.2)",
+              "children": [
+                {
+                  "name": "Export-control assessment"
+                }
+              ]
+            },
+            {
+              "name": "AI regulation (5.3)",
+              "children": [
+                {
+                  "name": "AI compliance assessment"
+                }
+              ]
+            },
+            {
+              "name": "Copyright and IPR (5.4)"
+            },
+            {
+              "name": "Sector-specific regulation (missing?)",
+              "children": [
+                {
+                  "name": "Permits / authorisations (link?)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Contractual and funder compliance (4)",
+          "children": [
+            {
+              "name": "Corporate Collaborations (4.1)"
+            },
+            {
+              "name": "Research cooperation and funder requirements (4.2)",
+              "children": [
+                {
+                  "name": "Reporting / audit documentation"
+                }
+              ]
+            },
+            {
+              "name": "Research and collaboration agreements (link)",
+              "children": [
+                {
+                  "name": "Confidentiality / NDA"
+                }
+              ]
+            },
+            {
+              "name": "Publishers (4.3)"
+            }
+          ]
+        },
+        {
+          "name": "Institutional compliance",
+          "children": [
+            {
+              "name": "University policies (link to Aalto code of conduct)"
+            },
+            {
+              "name": "Digital compliance process",
+              "children": [
+                {
+                  "name": "Assessment of IT systems, digital services, and licences (link)"
+                }
+              ]
+            },
+            {
+              "name": "Procurements (link)"
+            },
+            {
+              "name": "Information security (6.1)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

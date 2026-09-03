@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Responsible Research – Pedagogical Ontology</title>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+
+<style>
+  :root {
+    --background: #ffffff;
+    --text: #222222;
+    --muted: #666666;
+    --link: #b8bec6;
+
+    --ethics: #4e79a7;
+    --integrity: #59a14f;
+    --compliance: #f28e2b;
+    --security: #e15759;
+    --safety: #b07aa1;
+    --open: #76b7b2;
+  }
+
+  body {
+    margin: 0;
+    font-family: Inter, Arial, sans-serif;
+    background: var(--background);
+    color: var(--text);
+  }
+
+  header {
+    padding: 20px 28px 10px 28px;
+  }
+
+  h1 {
+    margin: 0 0 6px 0;
+    font-size: 24px;
+    font-weight: 650;
+  }
+
+  p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+
+  #controls {
+    display: flex;
+    gap: 8px;
+    padding: 12px 28px;
+  }
+
+  button {
+    font: inherit;
+    font-size: 13px;
+    padding: 7px 12px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    background: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: #f5f5f5;
+  }
+
+  #tree-container {
+    width: 100%;
+    overflow: auto;
+    border-top: 1px solid #eeeeee;
+  }
+
+  svg {
+    display: block;
+  }
+
+  .link {
+    fill: none;
+    stroke: var(--link);
+    stroke-width: 1.4px;
+  }
+
+  .node text {
+    font-size: 13px;
+    dominant-baseline: middle;
+    fill: var(--text);
+  }
+
+  .node.depth-0 text {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .node.depth-1 text {
+    font-size: 14px;
+    font-weight: 650;
+  }
+
+  .node.clickable {
+    cursor: pointer;
+  }
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Responsible research</h1>
+  <p>
+    Pedagogical ontology. Click branches to expand or collapse them.
+  </p>
+</header>
+
+<div id="controls">
+  <button id="overview">Overview</button>
+  <button id="expand-all">Expand all</button>
+  <button id="collapse-all">Collapse all</button>
+  <button id="save-svg">Save as SVG</button>
+</div>
+
+<div id="tree-container">
+  <svg id="tree"></svg>
+</div>
+
+<script>
+
+/* ============================================================
+   DATA
+   ============================================================ */
+
+const data = {
+  name: "Responsible research",
+  children: [
+
+    {
+      name: "Research ethics",
+      category: "ethics",
+      children: [
+        {
+          name: "Ethical issues",
+          children: [
+            { name: "Humans and participants" },
+            { name: "Animals" },
+            { name: "Fundamental rights" },
+            { name: "Misuse and societal impacts" }
+          ]
+        },
+        {
+          name: "Processes",
+          children: [
+            { name: "Ethics self-assessment" },
+            { name: "Ethical review" }
+          ]
+        }
+      ]
+    },
+
+    {
+      name: "Research integrity",
+      category: "integrity",
+      children: [
+        {
+          name: "Responsible conduct of research",
+          children: [
+            { name: "Honesty and reliability" },
+            { name: "Authorship and attribution" },
+            { name: "Conflicts of interest" }
+          ]
+        },
+        {
+          name: "Processes",
+          children: [
+            { name: "Integrity guidance" },
+            { name: "Misconduct procedures" }
+          ]
+        }
+      ]
+    },
+
+    {
+      name: "Research compliance",
+      category: "compliance",
+      children: [
+
+        {
+          name: "Legal and regulatory compliance",
+          children: [
+
+            {
+              name: "Data protection / GDPR",
+              children: [
+                { name: "DPIA / privacy documentation" }
+              ]
+            },
+
+            {
+              name: "AI regulation",
+              children: [
+                { name: "AI compliance assessment" }
+              ]
+            },
+
+            {
+              name: "Copyright and IPR"
+            },
+
+            {
+              name: "Export control and sanctions",
+              children: [
+                { name: "Export-control assessment" }
+              ]
+            },
+
+            {
+              name: "Sector-specific regulation",
+              children: [
+                { name: "Permits / authorisations" }
+              ]
+            }
+
+          ]
+        },
+
+        {
+          name: "Contractual and funder compliance",
+          children: [
+
+            {
+              name: "Grant requirements",
+              children: [
+                { name: "Reporting / audit documentation" }
+              ]
+            },
+
+            {
+              name: "Research and collaboration agreements",
+              children: [
+                { name: "Confidentiality / NDA" }
+              ]
+            },
+
+            {
+              name: "Software, data and service licences"
+            }
+
+          ]
+        },
+
+        {
+          name: "Institutional compliance",
+          children: [
+
+            { name: "University policies" },
+
+            {
+              name: "Digital compliance process",
+              children: [
+                {
+                  name: "Assessment of IT systems, digital services and licences"
+                }
+              ]
+            },
+
+            { name: "Procurement" },
+
+            { name: "Information security" }
+
+          ]
+        }
+
+      ]
+    },
+
+    {
+      name: "Research security",
+      category: "security",
+      children: [
+
+        {
+          name: "Research-security risks",
+          children: [
+
+            {
+              name: "Partner risks",
+              children: [
+                { name: "Partner screening / due diligence" }
+              ]
+            },
+
+            { name: "Knowledge / technology transfer" },
+
+            { name: "Foreign interference" },
+
+            { name: "Misuse / dual use" }
+
+          ]
+        },
+
+        {
+          name: "Processes",
+          children: [
+            { name: "Research-security assessment" }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      name: "Research safety",
+      category: "safety",
+      children: [
+
+        {
+          name: "Safety risks",
+          children: [
+            { name: "Laboratory / occupational safety" },
+            { name: "Biological / chemical / radiation safety" },
+            { name: "Environmental safety" }
+          ]
+        },
+
+        {
+          name: "Processes",
+          children: [
+            { name: "Safety assessment / permits" }
+          ]
+        }
+
+      ]
+    },
+
+    {
+      name: "Open science and stewardship",
+      category: "open",
+      children: [
+
+        {
+          name: "Research data management",
+          children: [
+            { name: "Data Management Plan" }
+          ]
+        },
+
+        {
+          name: "Publication and dissemination",
+          children: [
+            { name: "Open access" }
+          ]
+        },
+
+        {
+          name: "Preservation and reuse",
+          children: [
+            { name: "Repository deposit / archiving" }
+          ]
+        }
+
+      ]
+    }
+
+  ]
+};
+
+
+/* ============================================================
+   SETTINGS
+   ============================================================ */
+
+const verticalSpacing = 16;
+const horizontalSpacing = 230;
+
+const margin = {
+  top: 45,
+  right: 360,
+  bottom: 45,
+  left: 50
+};
+
+
+/* ============================================================
+   CREATE HIERARCHY
+   ============================================================ */
+
+const root = d3.hierarchy(data);
+
+let nextId = 0;
+
+root.each(d => {
+
+  d.id = ++nextId;
+
+  /*
+    Propagate first-level category down through branch.
+  */
+
+  if (d.depth === 1) {
+
+    d.branch = d.data.category;
+
+  } else if (d.parent) {
+
+    d.branch = d.parent.branch;
+
+  }
+
+});
+
+
+/* ============================================================
+   COLOURS
+   ============================================================ */
+
+const colors = {
+
+  ethics:
+    getComputedStyle(document.documentElement)
+      .getPropertyValue("--ethics"),
+
+  integrity:
+    getComputedStyle(document.documentElement)
+      .getPropertyValue("--integrity"),
+
+  compliance:
+    getComputedStyle(document.documentElement)
+      .getPropertyValue("--compliance"),
+
+  security:
+    getComputedStyle(document.documentElement)
+      .getPropertyValue("--security"),
+
+  safety:
+    getComputedStyle(document.documentElement)
+      .getPropertyValue("--safety"),
+
+  open:
+    getComputedStyle(document.documentElement)
+      .getPropertyValue("--open")
+
+};
+
+
+function nodeColor(d) {
+
+  if (d.depth === 0) {
+    return "#333333";
+  }
+
+  return colors[d.branch] || "#777777";
+
+}
+
+
+/* ============================================================
+   SVG
+   ============================================================ */
+
+const svg = d3.select("#tree");
+
+const g = svg.append("g");
+
+const linkLayer = g.append("g");
+
+const nodeLayer = g.append("g");
+
+
+/* ============================================================
+   TREE LAYOUT
+   ============================================================ */
+
+const tree = d3.tree()
+  .nodeSize([
+    verticalSpacing,
+    horizontalSpacing
+  ])
+  .separation(
+    (a, b) =>
+      a.parent === b.parent
+        ? 1
+        : 1.15
+  );
+
+
+/* ============================================================
+   COLLAPSING FUNCTIONS
+   ============================================================ */
+
+function collapse(d) {
+
+  if (d.children) {
+
+    d._children = d.children;
+
+    d._children.forEach(collapse);
+
+    d.children = null;
+
+  }
+
+}
+
+
+function expand(d) {
+
+  if (d._children) {
+
+    d.children = d._children;
+
+    d._children = null;
+
+  }
+
+  if (d.children) {
+
+    d.children.forEach(expand);
+
+  }
+
+}
+
+
+/*
+  Overview:
+
+  Keep:
+  - Responsible research
+  - six major domains
+  - one conceptual level beneath them
+
+  Collapse everything deeper.
+*/
+
+function setOverview() {
+
+  expand(root);
+
+  root.each(d => {
+
+    if (d.depth === 2 && d.children) {
+
+      d._children = d.children;
+      d.children = null;
+
+    }
+
+  });
+
+}
+
+
+/*
+  Collapse everything except six main domains.
+*/
+
+function collapseAll() {
+
+  expand(root);
+
+  root.children.forEach(d => collapse(d));
+
+}
+
+
+/*
+  Expand complete ontology.
+*/
+
+function expandAll() {
+
+  expand(root);
+
+}
+
+
+/* ============================================================
+   ORTHOGONAL / DENDROGRAM LINK
+   ============================================================ */
+
+
+
+
+
+/* ============================================================
+   DRAW / UPDATE
+   ============================================================ */
+
+function update(source = root) {
+
+  tree(root);
+
+  const nodes = root.descendants();
+  const links = root.links();
+
+
+  /* ----------------------------------------------------------
+     Determine current tree dimensions
+     ---------------------------------------------------------- */
+
+  let minX = Infinity;
+  let maxX = -Infinity;
+
+  nodes.forEach(d => {
+
+    if (d.x < minX) minX = d.x;
+    if (d.x > maxX) maxX = d.x;
+
+  });
+
+
+  const height =
+    maxX -
+    minX +
+    margin.top +
+    margin.bottom;
+
+
+  const maxDepth =
+    d3.max(nodes, d => d.depth);
+
+
+  const width =
+    maxDepth *
+    horizontalSpacing +
+    margin.left +
+    margin.right;
+
+
+  /* ----------------------------------------------------------
+     Resize SVG
+     ---------------------------------------------------------- */
+
+  svg
+    .attr("width", width)
+    .attr("height", height);
+
+
+  /*
+    Shift tree so topmost node remains visible.
+  */
+
+  g.attr(
+    "transform",
+    `translate(
+      ${margin.left},
+      ${margin.top - minX}
+    )`
+  );
+
+
+/* ==========================================================
+   LINKS — SMOOTH BÉZIER CURVES
+   ========================================================== */
+
+const linkGenerator = d3.linkHorizontal()
+  .x(d => d.y)
+  .y(d => d.x);
+
+
+const link = linkLayer
+  .selectAll("path.link")
+  .data(
+    links,
+    d => d.target.id
+  );
+
+
+/*
+  New links initially emerge from the node
+  that was clicked.
+*/
+
+link
+  .enter()
+  .append("path")
+  .attr("class", "link")
+  .attr(
+    "d",
+    () => linkGenerator({
+      source: {
+        x: source.x,
+        y: source.y
+      },
+      target: {
+        x: source.x,
+        y: source.y
+      }
+    })
+  )
+  .merge(link)
+  .transition()
+  .duration(350)
+  .attr("d", linkGenerator);
+
+
+/*
+  Disappearing links collapse back
+  into the clicked node.
+*/
+
+link
+  .exit()
+  .transition()
+  .duration(250)
+  .attr(
+    "d",
+    () => linkGenerator({
+      source: {
+        x: source.x,
+        y: source.y
+      },
+      target: {
+        x: source.x,
+        y: source.y
+      }
+    })
+  )
+  .remove();
+
+  /* ==========================================================
+     NODES
+     ========================================================== */
+
+  const node = nodeLayer
+    .selectAll("g.node")
+    .data(
+      nodes,
+      d => d.id
+    );
+
+
+  const nodeEnter = node
+    .enter()
+    .append("g")
+    .attr(
+      "class",
+      d => `node depth-${d.depth}`
+    )
+    .attr(
+      "transform",
+      `translate(
+        ${source.y || 0},
+        ${source.x || 0}
+      )`
+    );
+
+
+  /* ----------------------------------------------------------
+     LABELS
+     ---------------------------------------------------------- */
+
+  nodeEnter
+    .append("text")
+
+    /*
+      Six major branches:
+      centred above the end of their branch.
+    */
+
+    .attr(
+      "x",
+      d => d.depth === 1
+        ? 0
+        : 8
+    )
+
+    .attr(
+      "y",
+      d => d.depth === 1
+        ? -9
+        : 0
+    )
+
+    .attr(
+      "text-anchor",
+      d => d.depth === 1
+        ? "middle"
+        : "start"
+    )
+
+    .text(
+      d => d.data.name
+    );
+
+
+  /* ----------------------------------------------------------
+     INTERACTION
+     ---------------------------------------------------------- */
+
+  nodeEnter.on(
+    "click",
+    function(event, d) {
+
+      if (d.children) {
+
+        d._children = d.children;
+        d.children = null;
+
+      } else if (d._children) {
+
+        d.children = d._children;
+        d._children = null;
+
+      } else {
+
+        return;
+
+      }
+
+      update(d);
+
+    }
+  );
+
+
+  const nodeMerge =
+    nodeEnter.merge(node);
+
+
+  nodeMerge
+    .classed(
+      "clickable",
+      d =>
+        Boolean(
+          d.children ||
+          d._children
+        )
+    );
+
+
+  nodeMerge
+    .transition()
+    .duration(350)
+    .attr(
+      "transform",
+      d =>
+        `translate(${d.y},${d.x})`
+    );
+
+
+  nodeMerge
+    .select("text")
+    .attr(
+      "font-weight",
+      d =>
+        d.depth <= 1
+          ? 650
+          : 400
+    );
+
+
+  /*
+    Remove disappearing nodes.
+  */
+
+  node
+    .exit()
+    .transition()
+    .duration(250)
+    .attr(
+      "transform",
+      `translate(
+        ${source.y},
+        ${source.x}
+      )`
+    )
+    .remove();
+
+
+  /*
+    Remember current coordinates.
+  */
+
+  root.each(d => {
+
+    d.x0 = d.x;
+    d.y0 = d.y;
+
+  });
+
+}
+
+
+/* ============================================================
+   BUTTONS
+   ============================================================ */
+
+document
+  .getElementById("overview")
+  .addEventListener(
+    "click",
+    () => {
+
+      setOverview();
+      update(root);
+
+    }
+  );
+
+
+document
+  .getElementById("expand-all")
+  .addEventListener(
+    "click",
+    () => {
+
+      expandAll();
+      update(root);
+
+    }
+  );
+
+
+document
+  .getElementById("collapse-all")
+  .addEventListener(
+    "click",
+    () => {
+
+      collapseAll();
+      update(root);
+
+    }
+  );
+
+
+/* ============================================================
+   INITIAL VIEW
+   ============================================================ */
+
+setOverview();
+
+update(root);
+
+
+/* ============================================================
+   SAVE AS SVG
+   ============================================================ */
+
+document
+  .getElementById("save-svg")
+  .addEventListener(
+    "click",
+    saveSVG
+  );
+
+
+function saveSVG() {
+
+  const original =
+    document.getElementById("tree");
+
+
+  /*
+    Clone SVG so displayed visualization
+    is not modified.
+  */
+
+  const clone =
+    original.cloneNode(true);
+
+
+  /*
+    Standalone SVG namespace.
+  */
+
+  clone.setAttribute(
+    "xmlns",
+    "http://www.w3.org/2000/svg"
+  );
+
+
+  /*
+    Embed styles required by standalone SVG.
+  */
+
+  const style =
+    document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "style"
+    );
+
+
+  style.textContent = `
+
+    .link {
+      fill: none;
+      stroke: #b8bec6;
+      stroke-width: 1.4px;
+    }
+
+    .node text {
+      font-family: Inter, Arial, sans-serif;
+      font-size: 13px;
+      dominant-baseline: middle;
+      fill: #222222;
+    }
+
+    .node.depth-0 text {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .node.depth-1 text {
+      font-size: 14px;
+      font-weight: 650;
+    }
+
+  `;
+
+
+  clone.insertBefore(
+    style,
+    clone.firstChild
+  );
+
+
+  /*
+    White background.
+  */
+
+  const background =
+    document.createElementNS(
+      "http://www.w3.org/2000/svg",
+      "rect"
+    );
+
+
+  background.setAttribute(
+    "x",
+    "0"
+  );
+
+  background.setAttribute(
+    "y",
+    "0"
+  );
+
+  background.setAttribute(
+    "width",
+    "100%"
+  );
+
+  background.setAttribute(
+    "height",
+    "100%"
+  );
+
+  background.setAttribute(
+    "fill",
+    "white"
+  );
+
+
+  clone.insertBefore(
+    background,
+    clone.firstChild
+  );
+
+
+  /*
+    Convert SVG DOM into text.
+  */
+
+  const serializer =
+    new XMLSerializer();
+
+
+  let source =
+    serializer.serializeToString(
+      clone
+    );
+
+
+  source =
+    '<?xml version="1.0" encoding="UTF-8"?>\n' +
+    source;
+
+
+  /*
+    Create SVG file.
+  */
+
+  const blob =
+    new Blob(
+      [source],
+      {
+        type:
+          "image/svg+xml;charset=utf-8"
+      }
+    );
+
+
+  const url =
+    URL.createObjectURL(blob);
+
+
+  const a =
+    document.createElement("a");
+
+
+  a.href = url;
+
+  a.download =
+    "responsible-research-tree.svg";
+
+
+  document.body.appendChild(a);
+
+  a.click();
+
+  document.body.removeChild(a);
+
+  URL.revokeObjectURL(url);
+
+}
+
+</script>
+
+</body>
+</html>
