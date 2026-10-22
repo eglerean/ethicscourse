@@ -23,7 +23,7 @@ Responsible research
 │   │   ├── Reliability, Honesty, Respect, Accountability (X2.1)
 │   │   ├── Authorship and attribution (2.3)
 │   │   ├── Freedom of research (2.6)
-│   │   ├── Conflicts of interest (link)
+│   │   ├── Conflicts of interest (X2.4)
 │   │   ├── Transparency and reproducibility (X2.3)
 │   │   │   └── Pre-registration, registered reports (X2.2)
 │   │   └── Generative AI tools (2.4)
@@ -35,7 +35,7 @@ Responsible research
 │   │   └── Preservation and reuse (2.5)
 │   │       └── Repository deposit / archiving
 │   └── Processes
-│       ├── Integrity guidance ([link](https://vastuullinentiede.fi/fi))
+│       ├── Integrity guidance (X2.5)
 │       └── Misconduct procedures (2.2)
 │
 ├── Research security
