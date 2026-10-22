@@ -742,6 +742,64 @@
       }
     ]
   },
+  "6.7": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Aalto experiences from Global South cooperation: Aalto Global Impact - a cross-continental journey in sustainability education",
+            "url": "https://urn.fi/URN:ISBN:978-952-64-1955-8"
+          },
+          {
+            "text": "Ethics Reviews Meet the Global South: Hidden Barriers to Contextualized Knowledge Generation (Dzhengiz, Halme, Khan, Kiptoo)",
+            "url": "https://journals.sagepub.com/doi/10.1177/00076503251340755"
+          },
+          {
+            "text": "Aalto Travel safety",
+            "url": "https://www.aalto.fi/en/node/12821"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Finland-wide (TENK-UniPID) Ethical Guidelines for Global South Academic Partnerships",
+            "url": "http://hdl.handle.net/10138/566406"
+          },
+          {
+            "text": "TRUST Guide on Involving Vulnerable Populations in Research",
+            "url": "http://www.globalcodeofconduct.org/wp-content/uploads/2018/07/TRUST-Community-Participation-in-Research.pdf"
+          },
+          {
+            "text": "Global Code of Conduct for Research in Resource-Poor Settings",
+            "url": "https://ec.europa.eu/research/participants/data/ref/h2020/other/hi/coc_research-resource-poor-settings_en.pdf"
+          },
+          {
+            "text": "Equitable Research Open Source Book",
+            "url": "https://link.springer.com/content/pdf/10.1007%2F978-3-030-15745-6.pdf"
+          },
+          {
+            "text": "Research Fairness initiative",
+            "url": "https://rfi.cohred.org/"
+          },
+          {
+            "text": "European Commission ethics for researchers, p. 21 on research involving developing countries",
+            "url": "https://ec.europa.eu/research/participants/data/ref/fp7/89888/ethics-for-researchers_en.pdf"
+          },
+          {
+            "text": "European Commission - Human Rights Based Approach",
+            "url": "https://wikis.ec.europa.eu/pages/viewpage.action?pageId=50108948"
+          },
+          {
+            "text": "HRBA toolkit, United Nations Development Programme",
+            "url": "https://www.undp.org/publications/human-rights-based-approach-development-programming-hrba-toolkit"
+          }
+        ]
+      }
+    ]
+  },
   "X2.1": {
     "sections": [
       {
