@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Responsible Research – Pedagogical Ontology</title>
+<title>Responsible Research - A mind map of the research ethics for doctoral students course at Aalto university</title>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
 
@@ -139,7 +139,9 @@
 <header>
   <h1>Responsible research</h1>
   <p>
-    Pedagogical ontology, generated from tree.md. Click nodes to expand or collapse branches.
+This is a mind map of the Research Ethics for Doctoral Students course. The map is organised as a tree, but in reality things are more interwined (something about "research security" can also fall under "legal compliance").
+
+The numbers in parenthesis correspond to a section of the ethics course MOOC. What is not covered by the ethics course can be provided as external links. Missing bits are being added to a new version of the course. The links right now are just placeholders and real links are still missing.
   </p>
 </header>
 
@@ -158,322 +160,45 @@
 <script>
 
 /* ============================================================
-   DATA
-   (generated from tree.md via tree_md_to_json.py)
+   LOAD DATA
+   (tree.json is generated from tree.md via tree_md_to_json.py)
    ============================================================ */
 
-const data = {
-  "name": "Responsible research",
-  "children": [
-    {
-      "name": "Research ethics (3)",
-      "children": [
-        {
-          "name": "Ethical issues",
-          "children": [
-            {
-              "name": "Ethical thinking (1.1)"
-            },
-            {
-              "name": "Humans and participants (6.6)"
-            },
-            {
-              "name": "Global south (3.3)"
-            },
-            {
-              "name": "Nature and the environment (3.4)"
-            },
-            {
-              "name": "Animals (3.5)"
-            },
-            {
-              "name": "Artistic research (6.3)"
-            },
-            {
-              "name": "Artificial Intelligence (6.5)"
-            },
-            {
-              "name": "Fundamental rights (link)"
-            }
-          ]
-        },
-        {
-          "name": "Processes",
-          "children": [
-            {
-              "name": "Ethics self-assessment (link)"
-            },
-            {
-              "name": "Ethical review",
-              "children": [
-                {
-                  "name": "Non-medical research ethics review (3.1)",
-                  "children": [
-                    {
-                      "name": "Full review"
-                    },
-                    {
-                      "name": "Concise process"
-                    }
-                  ]
-                },
-                {
-                  "name": "Medical research ethics review (3.2)"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Research integrity (2)",
-      "children": [
-        {
-          "name": "Responsible conduct of research (2.1)",
-          "children": [
-            {
-              "name": "Honesty and reliability (link)"
-            },
-            {
-              "name": "Authorship and attribution (2.3)"
-            },
-            {
-              "name": "Freedom of research (2.6)"
-            },
-            {
-              "name": "Conflicts of interest (link)"
-            },
-            {
-              "name": "Transparency and reproducibility (missing)",
-              "children": [
-                {
-                  "name": "Pre-registration, registered reports (missing)"
-                }
-              ]
-            },
-            {
-              "name": "Generative AI tools (2.4)"
-            }
-          ]
-        },
-        {
-          "name": "Open science and stewardship",
-          "children": [
-            {
-              "name": "Research data management (2.5)",
-              "children": [
-                {
-                  "name": "Data Management Plan"
-                }
-              ]
-            },
-            {
-              "name": "Publication and dissemination (4.3)",
-              "children": [
-                {
-                  "name": "Open access"
-                }
-              ]
-            },
-            {
-              "name": "Preservation and reuse (2.5)",
-              "children": [
-                {
-                  "name": "Repository deposit / archiving"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Processes",
-          "children": [
-            {
-              "name": "Integrity guidance ([link](https://vastuullinentiede.fi/fi))"
-            },
-            {
-              "name": "Misconduct procedures (2.2)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Research security",
-      "children": [
-        {
-          "name": "Research-security risks (5.2)",
-          "children": [
-            {
-              "name": "Partner risks (5.2)",
-              "children": [
-                {
-                  "name": "Partner screening / due diligence"
-                }
-              ]
-            },
-            {
-              "name": "Knowledge / technology transfer (link)"
-            },
-            {
-              "name": "Foreign interference (5.2)"
-            },
-            {
-              "name": "Misuse / dual use (5.2)"
-            },
-            {
-              "name": "Cybersecurity (6.1)"
-            }
-          ]
-        },
-        {
-          "name": "Processes",
-          "children": [
-            {
-              "name": "Research-security assessment (link)"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Research safety",
-      "children": [
-        {
-          "name": "Safety risks (6.2)",
-          "children": [
-            {
-              "name": "Laboratory / occupational safety"
-            },
-            {
-              "name": "Biological / chemical / radiation safety"
-            },
-            {
-              "name": "Environmental safety"
-            }
-          ]
-        },
-        {
-          "name": "Neuroimaging at Aalto (6.4)"
-        },
-        {
-          "name": "Processes",
-          "children": [
-            {
-              "name": "Safety assessment / permits (link)"
-            },
-            {
-              "name": "Safety trainings",
-              "children": [
-                {
-                  "name": "School of Chemistry (link)"
-                },
-                {
-                  "name": "MRI safety course (link)"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Research compliance",
-      "children": [
-        {
-          "name": "Legal and regulatory compliance (5)",
-          "children": [
-            {
-              "name": "Data protection / GDPR (5.1)",
-              "children": [
-                {
-                  "name": "DPIA / privacy documentation"
-                }
-              ]
-            },
-            {
-              "name": "Export control and sanctions (5.2)",
-              "children": [
-                {
-                  "name": "Export-control assessment"
-                }
-              ]
-            },
-            {
-              "name": "AI regulation (5.3)",
-              "children": [
-                {
-                  "name": "AI compliance assessment"
-                }
-              ]
-            },
-            {
-              "name": "Copyright and IPR (5.4)"
-            },
-            {
-              "name": "Sector-specific regulation (missing?)",
-              "children": [
-                {
-                  "name": "Permits / authorisations (link?)"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Contractual and funder compliance (4)",
-          "children": [
-            {
-              "name": "Corporate Collaborations (4.1)"
-            },
-            {
-              "name": "Research cooperation and funder requirements (4.2)",
-              "children": [
-                {
-                  "name": "Reporting / audit documentation"
-                }
-              ]
-            },
-            {
-              "name": "Research and collaboration agreements (link)",
-              "children": [
-                {
-                  "name": "Confidentiality / NDA"
-                }
-              ]
-            },
-            {
-              "name": "Publishers (4.3)"
-            }
-          ]
-        },
-        {
-          "name": "Institutional compliance",
-          "children": [
-            {
-              "name": "University policies (link to Aalto code of conduct)"
-            },
-            {
-              "name": "Digital compliance process",
-              "children": [
-                {
-                  "name": "Assessment of IT systems, digital services, and licences (link)"
-                }
-              ]
-            },
-            {
-              "name": "Procurements (link)"
-            },
-            {
-              "name": "Information security (6.1)"
-            }
-          ]
-        }
-      ]
+fetch("tree.json")
+  .then(response => {
+
+    if (!response.ok) {
+      throw new Error(`${response.status} ${response.statusText}`);
     }
-  ]
-};
+
+    return response.json();
+
+  })
+  .then(render)
+  .catch(error => {
+
+    d3.select("#tree-container")
+      .append("p")
+      .style("color", "#b23b2e")
+      .style("padding", "20px")
+      .text(
+        "Could not load tree.json (" + error.message + "). " +
+        "If you opened this file directly from disk, browsers " +
+        "block local fetch() for security -- serve the folder " +
+        "instead, e.g. run `python3 -m http.server` here and " +
+        "open http://localhost:8000/ethicscourse3.html."
+      );
+
+  });
+
+
+/* ============================================================
+   RENDER
+   Runs once tree.json has loaded, with its parsed contents
+   passed in as `data`.
+   ============================================================ */
+
+function render(data) {
 
 
 /* ============================================================
@@ -481,18 +206,15 @@ const data = {
    ============================================================ */
 
 /*
-  verticalSpacing:
-      distance between neighbouring nodes. d3.tree() with a fixed
-      nodeSize guarantees at least this much gap between any two
-      nodes at the same depth, so it must stay >= the tallest
-      label-bg plate (label text height + its padding) or two
-      sibling rows' plates could touch.
-
   horizontalSpacing:
       distance between hierarchy levels
+
+  Vertical spacing is no longer a fixed constant -- wrapped,
+  multi-line labels need more row height than short one-line
+  ones. See LABEL WRAPPING and TREE LAYOUT below for how each
+  row's actual height drives its own spacing.
 */
 
-const verticalSpacing = 24;
 const horizontalSpacing = 170;
 
 const margin = {
@@ -589,14 +311,151 @@ const nodeLayer = g.append("g");
 
 
 /* ============================================================
+   NODE LABEL HELPERS
+   ============================================================ */
+
+/*
+  Node names carry their own trailing parenthetical, e.g.
+  "Research ethics (3)", "Fundamental rights (link)", or
+  "Integrity guidance ([link](https://vastuullinentiede.fi/fi))".
+  Detect the two link forms here at render time rather than
+  storing a separate field in the data:
+
+    "... ([text](url))"  -> clickable, opens url
+    "... (link...)"       -> clickable placeholder, href "#"
+*/
+
+const MARKDOWN_LINK_RE =
+  /^(.*?)\s*\(\[([^\[\]]*)\]\(([^()]+)\)\)\s*$/;
+
+const LINK_PLACEHOLDER_RE =
+  /^.*\((link[^()]*)\)\s*$/i;
+
+function parseLabel(name) {
+
+  const markdownMatch = MARKDOWN_LINK_RE.exec(name);
+
+  if (markdownMatch) {
+    return {
+      text: `${markdownMatch[1]} (${markdownMatch[2]})`.trim(),
+      href: markdownMatch[3]
+    };
+  }
+
+  if (LINK_PLACEHOLDER_RE.test(name)) {
+    return { text: name, href: "#" };
+  }
+
+  return { text: name, href: null };
+}
+
+
+/* ============================================================
+   LABEL WRAPPING
+   ============================================================ */
+
+/*
+  Word-wrap every label to maxLabelWidth and cache the resulting
+  lines -- plus an estimated block height -- directly on each
+  hierarchy node, once, up front. This runs independent of
+  layout and of collapsed state, using a hidden <text> purely
+  for measurement (getComputedTextLength), because the tree
+  layout's separation() function (see TREE LAYOUT, right below)
+  needs every node's height before it can lay anything out: a
+  node that wraps to three lines needs more row space than one
+  that fits on one.
+*/
+
+const maxLabelWidth = 130;
+const labelLineHeightEm = 1.15;
+
+function labelFont(depth) {
+
+  if (depth === 0) return { size: 16, weight: 700 };
+  if (depth === 1) return { size: 14, weight: 650 };
+
+  return { size: 13, weight: 400 };
+}
+
+function wrapWords(content, maxWidth, measurer) {
+
+  const words = content.split(/\s+/).filter(Boolean);
+  const lines = [];
+  let current = "";
+
+  words.forEach(word => {
+
+    const candidate = current ? `${current} ${word}` : word;
+
+    measurer.text(candidate);
+
+    if (current && measurer.node().getComputedTextLength() > maxWidth) {
+
+      lines.push(current);
+      current = word;
+
+    } else {
+
+      current = candidate;
+    }
+
+  });
+
+  if (current) {
+    lines.push(current);
+  }
+
+  return lines.length ? lines : [content];
+}
+
+const labelMeasurer = svg
+  .append("text")
+  .attr("visibility", "hidden")
+  .style("font-family", "Inter, Arial, sans-serif");
+
+root.each(d => {
+
+  const font = labelFont(d.depth);
+
+  labelMeasurer
+    .style("font-size", `${font.size}px`)
+    .style("font-weight", font.weight);
+
+  d.label = parseLabel(d.data.name);
+  d.labelLineHeight = font.size * labelLineHeightEm;
+  d.labelLines = wrapWords(d.label.text, maxLabelWidth, labelMeasurer);
+  d.labelHeight = d.labelLines.length * d.labelLineHeight;
+
+});
+
+labelMeasurer.remove();
+
+
+/* ============================================================
    TREE LAYOUT
    ============================================================ */
 
+/*
+  Rows no longer share one fixed height -- a wrapped, multi-line
+  label needs more vertical room than a short one-line one.
+  nodeSize's first dimension is set to 1 so separation() can
+  return the actual gap, in pixels, between each pair of
+  adjacent nodes directly: their combined half-heights plus a
+  fixed breathing margin (rowGap), instead of one unit applied
+  uniformly to every row regardless of content.
+*/
+
+const rowGap = 10;
+
 const tree = d3.tree()
-  .nodeSize([
-    verticalSpacing,
-    horizontalSpacing
-  ]);
+  .nodeSize([1, horizontalSpacing])
+  .separation((a, b) => {
+
+    const gap = (a.labelHeight + b.labelHeight) / 2 + rowGap;
+
+    return a.parent === b.parent ? gap : gap + rowGap;
+
+  });
 
 
 /* ============================================================
@@ -676,46 +535,6 @@ function collapseAll() {
 
 function expandAll() {
   expand(root);
-}
-
-
-/* ============================================================
-   NODE LABEL HELPERS
-   ============================================================ */
-
-/*
-  Node names carry their own trailing parenthetical, e.g.
-  "Research ethics (3)", "Fundamental rights (link)", or
-  "Integrity guidance ([link](https://vastuullinentiede.fi/fi))".
-  Detect the two link forms here at render time rather than
-  storing a separate field in the data:
-
-    "... ([text](url))"  -> clickable, opens url
-    "... (link...)"       -> clickable placeholder, href "#"
-*/
-
-const MARKDOWN_LINK_RE =
-  /^(.*?)\s*\(\[([^\[\]]*)\]\(([^()]+)\)\)\s*$/;
-
-const LINK_PLACEHOLDER_RE =
-  /^.*\((link[^()]*)\)\s*$/i;
-
-function parseLabel(name) {
-
-  const markdownMatch = MARKDOWN_LINK_RE.exec(name);
-
-  if (markdownMatch) {
-    return {
-      text: `${markdownMatch[1]} (${markdownMatch[2]})`.trim(),
-      href: markdownMatch[3]
-    };
-  }
-
-  if (LINK_PLACEHOLDER_RE.test(name)) {
-    return { text: name, href: "#" };
-  }
-
-  return { text: name, href: null };
 }
 
 
@@ -859,21 +678,26 @@ function update(source = root) {
 
 
   /*
-    Label: plain text, or -- when the name carries a "(link)"
-    annotation -- a clickable <a> (real URL if the source spelled
-    one out as a markdown link, otherwise a "#" placeholder).
+    Label: word-wrapped text (lines precomputed in LABEL
+    WRAPPING, above), or -- when the name carries a "(link)"
+    annotation -- a clickable <a> wrapping that text (real URL
+    if the source spelled one out as a markdown link, otherwise
+    a "#" placeholder).
 
-    A background rect is sized to the rendered text's own bbox
-    (so it hugs single-line labels of any length) and inserted
-    behind it, giving long labels a readable plate over the
-    link lines they cross. verticalSpacing is kept tall enough
-    (see SETTINGS) that this plate never reaches a sibling row.
+    Lines are centered as a block around the node's y = 0. A
+    background rect is then sized to the rendered <text>'s own
+    bbox -- which spans every tspan, so it automatically fits
+    however many lines a label wrapped to -- and inserted behind
+    it, giving long labels a readable plate over the link lines
+    they cross. Each row's own height already fed the layout's
+    separation() (see TREE LAYOUT), so this plate can't reach a
+    neighbouring row's.
   */
 
   nodeEnter.each(function(d) {
 
     const g = d3.select(this);
-    const parsed = parseLabel(d.data.name);
+    const parsed = d.label;
 
     const backdrop = g
       .append("rect")
@@ -893,13 +717,23 @@ function update(source = root) {
       }
     }
 
-    const text = labelHost
-      .append("text")
-      .attr("x", 12)
-      .text(parsed.text);
+    const text = labelHost.append("text");
+
+    const lineHeight = d.labelLineHeight;
+    const startY = -((d.labelLines.length - 1) / 2) * lineHeight;
+
+    d.labelLines.forEach((line, i) => {
+
+      text
+        .append("tspan")
+        .attr("x", 12)
+        .attr("y", startY + i * lineHeight)
+        .text(line);
+
+    });
 
     const box = text.node().getBBox();
-    const padX = 3;
+    const padX = 4;
     const padY = 2;
 
     backdrop
@@ -1050,6 +884,9 @@ document
 
 setOverview();
 update(root);
+
+}
+
 
 document
   .getElementById("save-svg")

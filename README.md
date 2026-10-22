@@ -187,3 +187,66 @@ or:
 ```bash
 python3 json_ascii_tree.py ascii2json --help
 ```
+
+# Responsible Research ontology viewer
+
+An interactive, collapsible d3 tree (`ethicscourse3.html`) visualizing the
+Responsible Research pedagogical ontology. It's a separate, related tool
+built on the same tree-editing idea as the converter above.
+
+## Files
+
+- `tree.md` -- the source of truth. A hand-edited, indented tree (see
+  its own docstring for the exact syntax).
+- `tree_md_to_json.py` -- converts `tree.md` into `tree.json`.
+- `tree.json` -- generated output, loaded by the viewer at runtime.
+- `ethicscourse3.html` -- the viewer. It `fetch()`es `tree.json`, so it
+  must be served over HTTP, not opened directly as a `file://` URL
+  (browsers block local `fetch()` for security; the page will show an
+  on-screen message if this happens).
+
+## Editing the ontology
+
+1. Edit `tree.md`.
+
+2. Regenerate `tree.json`:
+
+   ```bash
+   python3 tree_md_to_json.py tree.md -o tree.json
+   ```
+
+3. Serve this folder and open the viewer in a browser:
+
+   ```bash
+   python3 -m http.server 8000
+   ```
+
+   then visit `http://localhost:8000/ethicscourse3.html`.
+
+## Adding a link to a node
+
+Any trailing parenthetical on a `tree.md` line -- `(3)`, `(link)`,
+`(missing)`, etc. -- is kept as-is, as part of the node's name; it's
+not split into separate JSON fields. Two of these are recognized by
+the viewer as clickable at render time:
+
+- `Node name (link)`, `(link?)`, `(link to ...)` -- a placeholder with
+  no URL yet. Renders as clickable, but points at `#`.
+- `Node name ([link](https://example.com))` -- a real URL, using
+  Markdown link syntax. Renders as `Node name (link)`, clickable,
+  opening `https://example.com`.
+
+To turn a placeholder into a real link, replace it with the Markdown
+form once you have the URL, e.g.:
+
+```text
+├── Fundamental rights (link)
+```
+
+becomes
+
+```text
+├── Fundamental rights ([link](https://www.finlex.fi/en/laws/...))
+```
+
+Then regenerate `tree.json` (step 2 above) and reload the page.
