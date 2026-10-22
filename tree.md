@@ -24,8 +24,8 @@ Responsible research
 │   │   ├── Authorship and attribution (2.3)
 │   │   ├── Freedom of research (2.6)
 │   │   ├── Conflicts of interest (link)
-│   │   ├── Transparency and reproducibility (missing)
-│   │   │   └── Pre-registration, registered reports (missing)
+│   │   ├── Transparency and reproducibility (X2.3)
+│   │   │   └── Pre-registration, registered reports (X2.2)
 │   │   └── Generative AI tools (2.4)
 │   ├── Open science and stewardship
 │   │   ├── Research data management (2.5)

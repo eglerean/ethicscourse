@@ -662,5 +662,31 @@
         ]
       }
     ]
+  },
+  "X2.2": {
+    "sections": [
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Pre-registration and registered reports (HackMD)",
+            "url": "https://hackmd.io/@eglerean/RegRep"
+          }
+        ]
+      }
+    ]
+  },
+  "X2.3": {
+    "sections": [
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Questionable Research Practices and possible cures (slides, Google Slides)",
+            "url": "https://docs.google.com/presentation/d/1aIsloWlJ95gP3ZOvPX-gr5qMTFUdAz1Vtr36d98G_0M/edit?usp=sharing"
+          }
+        ]
+      }
+    ]
   }
 }
