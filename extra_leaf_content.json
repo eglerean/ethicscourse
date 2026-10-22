@@ -531,5 +531,102 @@
         ]
       }
     ]
+  },
+  "6.5": {
+    "sections": [
+      {
+        "heading": "Frameworks for AI ethics",
+        "items": [
+          {
+            "text": "Floridi, L. & Cowls, J. (2019). A Unified Framework of Five Principles for AI in Society. Harvard Data Science Review, 1(1).",
+            "url": "https://doi.org/10.1162/99608f92.8cd550d1"
+          }
+        ]
+      },
+      {
+        "heading": "Trustworthy AI",
+        "items": [
+          {
+            "text": "Ethics guidelines for trustworthy AI – European Commission, High-Level Expert Group on AI (2019)",
+            "url": "https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai"
+          },
+          {
+            "text": "AI Ethics and Governance in Practice – The Alan Turing Institute",
+            "url": "https://www.turing.ac.uk/research/research-projects/ai-ethics-and-governance-practice"
+          }
+        ]
+      }
+    ]
+  },
+  "6.6": {
+    "sections": [
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "How and when should you apply for ethical review of research | Aalto University",
+            "url": "https://www.aalto.fi/en/research-art/how-and-when-should-you-apply-for-ethical-review-of-research"
+          },
+          {
+            "text": "Who gives consent in research on children and young people? | Responsible Research",
+            "url": "https://vastuullinentiede.fi/en/planning/who-gives-consent-research-children-and-young-people"
+          },
+          {
+            "text": "Eilo, H. et al. (2026). Näkökulmia sosiaalisen median eettiseen ja vastuulliseen tutkimukseen (Perspectives on ethical and responsible social media research). Zenodo.",
+            "url": "https://zenodo.org/records/18386110"
+          },
+          {
+            "text": "The TRUST Code – A Global Code of Conduct for Equitable Research Partnerships",
+            "url": "https://www.globalcodeofconduct.org/"
+          }
+        ]
+      }
+    ]
+  },
+  "6.3": {
+    "sections": [
+      {
+        "heading": "Reading",
+        "items": [
+          {
+            "text": "The Joint Organisation for the Association for Finnish Artists (2023). Ethics Guidelines for the Art and Culture Sector.",
+            "url": "https://eettinentaide.fi/en/"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Berry, M & Batty C (2019). What could possibly go wrong?: The role of supervisors in ethics training for creative practice researchers. Teoksessa MacNeill, K. & Bolt B. (toim.) The Meeting of Aesthetics and Ethics in the Academy: Challenges for Creative Practice Researchers in Higher Education (pp. 87 – 100). Routledge: London.",
+            "url": "https://opus.lib.uts.edu.au/handle/10453/140227"
+          },
+          {
+            "text": "Bolt, B., & Vincs, R. (2015). Straw Godzilla: Engaging the academy and research ethics in artistic research projects. Educational Philosophy and Theory, 47(12), 1304–1318.",
+            "url": "https://doi.org/10.1080/00131857.2015.1044929"
+          },
+          {
+            "text": "Boothby, H. (2023). Ethics review of artistic research: challenging the boundaries and appealing for care. Research Ethics, 20(1), 112-127.",
+            "url": "https://doi.org/10.1177/17470161231188012"
+          },
+          {
+            "text": "Laukkanen, A., Jaakonaho, L., Fast, H., & Koivisto, T. A. (2021). Negotiating boundaries: reflections on the ethics of arts-based and artistic research in care contexts. Arts & Health, 14(3), 341–354.",
+            "url": "https://doi.org/10.1080/17533015.2021.1999279"
+          },
+          {
+            "text": "Raykov, M., & Vella, R. (2021). Ethics Reviews in Socially Engaged Arts Research. Research in Arts and Education, 2021(3), 29–49.",
+            "url": "https://doi.org/10.54916/rae.119543"
+          },
+          {
+            "text": "Spišák, S. (2023). Tutkimuseettinen säätely ja kanssatutkimuksen arjen tilanteiden etiikka. Teoksessa Kulmala M., Spišák S. & Venäläinen S. (toim.) Kanssatutkimus. Ihanteet ja käytännöt. Tampere: Tampere University Press.",
+            "url": null
+          },
+          {
+            "text": "Zurr, I., Catts, O. (2014). The Unnatural Relations Between Artistic Research and Ethics Committees: An Artist’s Perspective. In Macneill, P. (toim.) Ethics and the Arts. Springer, Dordrecht.",
+            "url": "https://doi.org/10.1007/978-94-017-8816-8_18"
+          }
+        ]
+      }
+    ]
   }
 }
