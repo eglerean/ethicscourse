@@ -1,0 +1,1265 @@
+{
+  "1.1": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Our purpose, values and way of working | Aalto University",
+            "url": "https://www.aalto.fi/en/our-strategy/our-purpose-values-and-way-of-working"
+          },
+          {
+            "text": "Code of Conduct - Values into practice | Aalto University",
+            "url": "https://www.aalto.fi/en/aalto-university/code-of-conduct-values-into-practice"
+          }
+        ]
+      },
+      {
+        "heading": "Further reading and materials",
+        "items": [
+          {
+            "text": "Beauchamp, T.L. & Childress, J.F. (1983/2001) Principles of Biomedical Ethics. Oxford University Press.",
+            "url": null
+          },
+          {
+            "text": "VIRT2UE Training Guide",
+            "url": "https://embassy.science/wiki/Guide:Bbe860a3-56a9-45f7-b787-031689729e52"
+          }
+        ]
+      }
+    ]
+  },
+  "2.1": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Research integrity | Aalto University",
+            "url": "https://www.aalto.fi/en/services/research-integrity"
+          }
+        ]
+      },
+      {
+        "heading": "Mandatory reading",
+        "items": [
+          {
+            "text": "The Finnish Code of Conduct for Research Integrity and Procedures for Handling Alleged Violations of Research Integrity in Finland 2023 (PDF)",
+            "url": "https://tenk.fi/sites/default/files/2023-11/RI_Guidelines_2023.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "2.2": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Handling of misconduct, violation of research integrity guidelines, at Aalto University | Aalto University",
+            "url": "https://www.aalto.fi/en/services/handling-of-misconduct-violation-of-research-integrity-guidelines-at-aalto-university"
+          }
+        ]
+      },
+      {
+        "heading": "Readings and materials",
+        "items": [
+          {
+            "text": "The Finnish Code of Conduct for Research Integrity and Procedures for Handling Alleged Violations of Research Integrity in Finland 2023 (PDF)",
+            "url": "https://tenk.fi/sites/default/files/2023-11/RI_Guidelines_2023.pdf"
+          },
+          {
+            "text": "Finnish model of self-regulation | Finnish National Board on Research Integrity TENK",
+            "url": "https://tenk.fi/en/research-misconduct/finnish-model-self-regulation"
+          },
+          {
+            "text": "The RCR/RI notification: Notification form for an alleged research integrity violation (PDF)",
+            "url": "https://tenk.fi/sites/default/files/2023-05/Notification%20form%20for%20an%20alleged%20RI%20violation_2023.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "2.3": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Defining the Role of Authors I Aalto University",
+            "url": "https://www.aalto.fi/en/news/defining-the-role-of-authors"
+          },
+          {
+            "text": "Templates for data agreements I Aalto University",
+            "url": "https://aaltofi.sharepoint.com/:w:/r/sites/Personaldataandresearch/_layouts/15/doc2.aspx?sourcedoc=%7BC0039854-6F2A-45B0-96D7-2A7511D99E40%7D&file=Data%20Authorship%20Statement%204.12.2020.docx&action=default&mobileredirect=true&cid=a037ac12-c975-4ade-8094-536f4e8ad980"
+          }
+        ]
+      },
+      {
+        "heading": "Links to further reading on the topic",
+        "items": [
+          {
+            "text": "Finnish National Board on Research Integrity (2019). Agreeing on authorship. Recommendation for research publications (2nd edition).",
+            "url": "https://tenk.fi/sites/tenk.fi/files/TENK_suositus_tekijyys.pdf"
+          },
+          {
+            "text": "CRediT taxonomy.",
+            "url": "https://credit.niso.org/"
+          }
+        ]
+      }
+    ]
+  },
+  "2.4": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Aalto Research Software Engineers",
+            "url": "https://www.aalto.fi/en/services/research-software-engineers"
+          },
+          {
+            "text": "Aalto data agents network",
+            "url": "https://www.aalto.fi/en/services/data-agents"
+          },
+          {
+            "text": "AI in Aalto - Best practices for AI use in research work",
+            "url": "https://www.aalto.fi/en/research-art/best-practices-for-ai-use-in-research-work"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Responsible use of Artificial Intelligence in the research process (Aalto University)",
+            "url": "https://www.aalto.fi/en/services/responsible-use-of-artificial-intelligence-in-the-research-process"
+          },
+          {
+            "text": "ERA living guidelines on the responsible use of Generative AI in research",
+            "url": "https://research-and-innovation.ec.europa.eu/news/all-research-and-innovation-news/era-living-guidelines-responsible-use-generative-ai-research-updated-2026-10-16_en"
+          },
+          {
+            "text": "Artificial Intelligence in Research (TENK)",
+            "url": "https://tenk.fi/en/news/tenk-publishes-new-national-recommendation-ai-research"
+          },
+          {
+            "text": "Responsible Use of Generative AI in Assisted Coding (CodeRefinery)",
+            "url": "https://coderefinery.github.io/coding-with-ai/"
+          }
+        ]
+      }
+    ]
+  },
+  "2.5": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Research Data Management (RDM) and Open Science | Aalto University",
+            "url": "https://www.aalto.fi/en/services/research-data-management-rdm-and-open-science"
+          },
+          {
+            "text": "Data Management Plan (DMP) | Aalto University",
+            "url": "https://www.aalto.fi/en/services/data-management-plan-dmp"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "FAIR principles by GoFair",
+            "url": "https://www.go-fair.org/fair-principles/"
+          }
+        ]
+      }
+    ]
+  },
+  "2.6": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Recommendations and guidelines on social media | Aalto University",
+            "url": "https://www.aalto.fi/en/services/recommendations-and-guidelines-on-social-media"
+          },
+          {
+            "text": "HR services I Aalto University",
+            "url": "https://www.aalto.fi/en/services/hr-services"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Tieteellisten seurain valtuuskunta",
+            "url": "https://edition.fi/tsv/catalog/view/1354/1470/5731"
+          },
+          {
+            "text": "Call to Action on the Freedom and Safety of Scientists - UNESCO Digital Library",
+            "url": "https://unesdoc.unesco.org/ark:/48223/pf0000389629"
+          },
+          {
+            "text": "Scholars at Risk - Unifi",
+            "url": "https://unifi.fi/en/activities/scholars-at-risk/"
+          },
+          {
+            "text": "Academic Freedom Monitoring Project | Scholars at Risk",
+            "url": "https://www.scholarsatrisk.org/actions/academic-freedom-monitoring-project/"
+          }
+        ]
+      }
+    ]
+  },
+  "3.1": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Aalto University's Research Ethics Committee sees to the carrying out of research ethical review at the university for non-medical research with research involving human participants. Research ethics review: Research Ethics Committee | Aalto University",
+            "url": "https://www.aalto.fi/en/services/research-ethics-review-research-ethics-committee"
+          }
+        ]
+      },
+      {
+        "heading": "Reading",
+        "items": [
+          {
+            "text": "The ethical principles of research with human participants and ethical reviw in the human sciences in Finland (TENK publications 2019).",
+            "url": "https://tenk.fi/sites/default/files/2021-01/Ethical_review_in_human_sciences_2020.pdf"
+          },
+          {
+            "text": "The European Code of Conduct for Research Integrity - ALLEA",
+            "url": "https://allea.org/code-of-conduct/"
+          }
+        ]
+      }
+    ]
+  },
+  "3.2": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "In case you have questions on research ethics in context of medical research, talk first with your supervisor. You can also contact the Aalto University Research Ethics Committee secretary, who will guide you for further help.",
+            "url": null
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Laki lääketieteellisestä tutkimuksesta | 488/1999 | Lainsäädäntö | Finlex",
+            "url": "https://www.finlex.fi/fi/lainsaadanto/1999/488"
+          },
+          {
+            "text": "Medical research ethics in Finland | Responsible Research",
+            "url": "https://vastuullinentiede.fi/en/planning/medical-research-ethics-finland"
+          },
+          {
+            "text": "Declaration of Helsinki – WMA – The World Medical Association",
+            "url": "https://www.wma.net/what-we-do/medical-ethics/declaration-of-helsinki/"
+          },
+          {
+            "text": "Digipalvelut tutkijalle (Digital services for researchers) | HUS",
+            "url": "https://www.hus.fi/tutkimus-ja-opetus/tutkijan-palvelut/digipalvelut-tutkijalle"
+          }
+        ]
+      }
+    ]
+  },
+  "3.3": {
+    "sections": [
+      {
+        "heading": "Links",
+        "items": [
+          {
+            "text": "aquatic environments",
+            "url": "https://tenk.fi/en/events/ethical-questions-research-aquatic-environments"
+          },
+          {
+            "text": "terrestrial environments",
+            "url": "https://tenk.fi/en/events/ethical-questions-research-terrestrial-environments"
+          },
+          {
+            "text": "climate and outer space",
+            "url": "https://tenk.fi/fi/tapahtumat/ilmastoon-ja-avaruuteen-kohdistuvan-tutkimuksen-eettiset-kysymykset"
+          },
+          {
+            "text": "animals",
+            "url": "https://tenk.fi/en/events/ethical-questions-animal-research"
+          },
+          {
+            "text": "nature cultures and society",
+            "url": "https://tenk.fi/en/events/ethical-questions-research-nature-cultures-and-society"
+          },
+          {
+            "text": "See: Ethical principles for research involving nature and the environment and a proposal for organising ethical review in Finland. Recommendation of the Finnish National Board on Research Integrity TENK 2026",
+            "url": "https://tenk.fi/sites/default/files/2026-06/Ethical%20principles%20for%20research%20involving%20nature%20and%20the%20environment.%20Recommendation%20of%20TENK%202026_0.pdf"
+          },
+          {
+            "text": "Saamelaisia koskevan tutkimuksen eettiset ohjeet Suomessa = Sámiide guoski dutkama ehtalaš rávvagat Suomas = Sämmilijd kyeskee tutkâmeettisiih ravvuuh Suomâst = Säʹmmlaid kuõskki tuʹtǩǩummuž eettla vuäʹppõõzz Lääʹddjânnmest = Ethical guidelines for research involving the Sámi people in Finland - OuluREPO",
+            "url": "https://oulurepo.oulu.fi/handle/10024/50115"
+          },
+          {
+            "text": "CARE Principles for Indigenous Data Governance",
+            "url": "https://lucit.sharepoint.com/sites/Julkisettiedostot/Lapin%20yliopiston%20julkiset%20tiedostot/Forms/AllItems.aspx?id=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet%2FCARE%20Principles%20for%20Indigenous%20Data%20Governance%2Epdf&parent=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet&p=true&ga=1"
+          },
+          {
+            "text": "CBD Code of Conduct Tkariwiaeri",
+            "url": "https://lucit.sharepoint.com/sites/Julkisettiedostot/Lapin%20yliopiston%20julkiset%20tiedostot/Forms/AllItems.aspx?id=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet%2FCBD%20Code%20of%20Conduct%20Tkariwiaeri%2Epdf&parent=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet&p=true&ga=1"
+          },
+          {
+            "text": "Deline Research Guidelines",
+            "url": "https://lucit.sharepoint.com/sites/Julkisettiedostot/Lapin%20yliopiston%20julkiset%20tiedostot/Forms/AllItems.aspx?id=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet%2FDeline%20Research%20Guidelines%2Epdf&parent=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet&p=true&ga=1"
+          },
+          {
+            "text": "Indigenous-ethical-guidelines-Australia",
+            "url": "https://lucit.sharepoint.com/sites/Julkisettiedostot/Lapin%20yliopiston%20julkiset%20tiedostot/Forms/AllItems.aspx?id=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet%2FIndigenous%2Dethical%2Dguidelines%2DAustralia%2Epdf&parent=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet&p=true&ga=1"
+          },
+          {
+            "text": "Etihkalas njuolggadusat Sámi dearvvasvuodadutkama várás (odda)",
+            "url": "https://lucit.sharepoint.com/sites/Julkisettiedostot/Lapin%20yliopiston%20julkiset%20tiedostot/Forms/AllItems.aspx?id=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet%2FEtihkalas%20njuolggadusat%20S%C3%A1mi%20dearvvasvuodadutkama%20v%C3%A1r%C3%A1s%20%28odda%29%2Epdf&parent=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet&p=true&ga=1"
+          },
+          {
+            "text": "Etiske retningslinjer for samisk helseforskning",
+            "url": "https://lucit.sharepoint.com/sites/Julkisettiedostot/Lapin%20yliopiston%20julkiset%20tiedostot/Forms/AllItems.aspx?id=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet%2FEtiske%20retningslinjer%20for%20samisk%20helseforskning%2Epdf&parent=%2Fsites%2FJulkisettiedostot%2FLapin%20yliopiston%20julkiset%20tiedostot%2FTutkimus%2FSaamelaisia%20koskevan%20tutkimuksen%20eettiset%20ohjeet&p=true&ga=1"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Veeral Launis and Eero Kaila (2023) Luontoon ja ympäristöön kohdistuvan tutkimuksen kansallisten eettisten periaatteiden ja eettisen ennakkoarvioinnin tarvekartoitus (In Finnsh ) TENK publication series 1/2023",
+            "url": "https://tenk.fi/sites/default/files/2023-02/LYTE-selvitys_2022.pdf"
+          },
+          {
+            "text": "Do no significant harm’ Technical Guidance by the Commission",
+            "url": "https://commission.europa.eu/document/download/993e026c-4118-46ed-b7ff-5224c19aa254_en?filename=2021_02_18_epc_do_not_significant_harm_-technical_guidance_by_the_commission.pdf"
+          },
+          {
+            "text": "EUR-Lex Technical guidance on applying the do no significant harm principle under the Social Climate Fund Regulation",
+            "url": "https://eur-lex.europa.eu/eli/C/2025/1596/oj"
+          }
+        ]
+      }
+    ]
+  },
+  "3.4": {
+    "sections": [
+      {
+        "heading": "Links",
+        "items": [
+          {
+            "text": "Project Authorisation Board - Finnish Food Authority",
+            "url": "https://www.ruokavirasto.fi/en/animals/laboratory-animals/project-authorisation-board/"
+          }
+        ]
+      },
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "The use of animals in research | Aalto University",
+            "url": "https://www.aalto.fi/en/research-art/the-use-of-animals-in-research"
+          },
+          {
+            "text": "Different perspectives to research ethics. How to make an ethics self-assessment in research projects – Aalto support and guidelines | Aalto University",
+            "url": "https://www.aalto.fi/en/research-art/different-perspectives-to-research-ethics-how-to-make-an-ethics-self-assessment-in-research-projects"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Regional State Administrative Agency: Laboratory animals: authorisations and enforcement",
+            "url": "https://avi.fi/en/services/individuals/licences-notices-and-applications/animals/laboratory-animals"
+          },
+          {
+            "text": "Ethical review of research on animals | University of Helsinki",
+            "url": "https://www.helsinki.fi/en/research/services-researchers/ethical-review-research/research-animals"
+          },
+          {
+            "text": "legislation concerning animal experimentation:",
+            "url": null
+          },
+          {
+            "text": "Finnish law: theAct on the Protection of Animals Used for Scientific or Educational Purposes (497/2013)and theGovernment Decree on the Protection of Animals Used for Scientific or Educational Purposes (564/2013)",
+            "url": "https://finlex.fi/en/legislation/collection/2013/497"
+          },
+          {
+            "text": "EU law: Directive 2010/63/EU on the protection of animals used for scientific purposes",
+            "url": "https://eur-lex.europa.eu/eli/dir/2010/63/2019-06-26"
+          },
+          {
+            "text": "Further information on laboratory animal use in Finland: Laboratory animals - Finnish Food Authority .",
+            "url": "https://www.ruokavirasto.fi/en/animals/laboratory-animals/"
+          }
+        ]
+      }
+    ]
+  },
+  "4.1": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Contact the legal counsel of your own school in case you need help with legal issues.",
+            "url": null
+          },
+          {
+            "text": "Legal Services | Aalto University",
+            "url": "https://www.aalto.fi/en/services/legal-services"
+          },
+          {
+            "text": "To find out about Aalto current corporate collaboration",
+            "url": null
+          },
+          {
+            "text": "Corporate collaboration | Aalto University",
+            "url": "https://www.aalto.fi/en/corporate-collaboration"
+          },
+          {
+            "text": "Objectivity and impartiality guidance in the university | Aalto University",
+            "url": "https://www.aalto.fi/en/aalto-university/objectivity-and-impartiality-guidance-in-the-university"
+          }
+        ]
+      }
+    ]
+  },
+  "4.2": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Research funding and project management | Aalto University",
+            "url": "https://www.aalto.fi/en/services/research-funding-and-project-management"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "REGULATION (EU) 2021/695 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 28 April 2021 establishing Horizon Europe – the Framework Programme for Research and Innovation, laying down its rules for participation and dissemination, and repealing Regulations (EU) No 1290/2013 and (EU) No 1291/2013",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021R0695"
+          },
+          {
+            "text": "2. European Convention on Human Rights",
+            "url": "https://www.echr.coe.int/documents/d/echr/convention_eng"
+          },
+          {
+            "text": "3.Charter of Fundamental Rights of the European Union (December 2009)",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:12012P/TXT"
+          },
+          {
+            "text": "4. Consolidated Version of the Treaty on Functioning of the European Union",
+            "url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CELEX:12012E/TXT:en:PDF"
+          },
+          {
+            "text": "5. How Horizon Europe was developed",
+            "url": "https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe/how-horizon-europe-was-developed_en"
+          },
+          {
+            "text": "6. EU Grants - How to complete your ethics self-assessment",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf"
+          },
+          {
+            "text": "7. Identifying seriousand complex ethics issues in EU-funded research",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/guidelines-on-serious-and-complex-cases_he_en.pdf"
+          },
+          {
+            "text": "8. Guidance note — Potential misuse of research",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/guidance-note-potential-misuse-of-research-results_he_en.pdf"
+          },
+          {
+            "text": "9. How to handle security-sensitive projects",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-handle-security-sensitive-projects_en.pdf"
+          }
+        ]
+      }
+    ]
+  },
+  "4.3": {
+    "sections": [
+      {
+        "heading": "Links",
+        "items": [
+          {
+            "text": "Funders' open science requirements | Aalto University",
+            "url": "https://www.aalto.fi/en/open-science-and-research/funders-open-science-requirements"
+          },
+          {
+            "text": "Key Information of Aalto University",
+            "url": "https://app.powerbi.com/groups/me/apps/2c40cee8-f997-45b3-a77b-9174563e6ff1/reports/36eeb485-b12e-4220-9134-097de14aa12f?experience=power-bi"
+          },
+          {
+            "text": "Aalto University’s Open Science and Research Policy",
+            "url": "https://www.aalto.fi/en/open-science-and-research/aalto-university-open-science-and-research-policy"
+          },
+          {
+            "text": "National Declaration for Open Science and Research",
+            "url": "https://doi.org/10.23847/tsv.1358"
+          },
+          {
+            "text": "UNESCO Recommendation on Open Science",
+            "url": "https://zenodo.org/records/5741832"
+          },
+          {
+            "text": "Cell Press",
+            "url": "https://www.cell.com/open-access"
+          },
+          {
+            "text": "Nature",
+            "url": "https://www.nature.com/nature/for-authors/publishing-options"
+          },
+          {
+            "text": "total costs of open access and publication",
+            "url": "https://research.fi/en/science-innovation-policy/open-science-and-research-indicators/indicators_content_4"
+          },
+          {
+            "text": "DOAJ database",
+            "url": "https://doaj.org/"
+          },
+          {
+            "text": "JUFO Portal",
+            "url": "https://jfp.csc.fi/jufoportal"
+          },
+          {
+            "text": "prior licence model",
+            "url": "https://www.aalto.fi/en/news/new-prior-licence-model-ensures-immediate-open-access-to-aaltos-research-publications"
+          }
+        ]
+      },
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Open access agreements with publishers | Aalto University",
+            "url": "https://www.aalto.fi/en/services/open-access-agreements-with-publishers"
+          },
+          {
+            "text": "Self-archiving | Aalto University",
+            "url": "https://www.aalto.fi/en/services/self-archiving"
+          },
+          {
+            "text": "Publishing preprints | Aalto University",
+            "url": "https://www.aalto.fi/en/services/self-archiving#26-publishing-preprints-and-sharing-via-social-media-networks"
+          }
+        ]
+      }
+    ]
+  },
+  "5.1": {
+    "sections": [
+      {
+        "heading": "Aalto Support",
+        "items": [
+          {
+            "text": "How to handle personal data in research? | Aalto University",
+            "url": "https://www.aalto.fi/en/services/how-to-handle-personal-data-in-research"
+          },
+          {
+            "text": "How you, as a student, are to process personal data in your studies | Aalto University",
+            "url": "https://www.aalto.fi/en/services/how-you-as-a-student-are-to-process-personal-data-in-your-studies"
+          },
+          {
+            "text": "Guidelines on data management and security for bachelor’s and master’s thesis advisors | Aalto University",
+            "url": "https://www.aalto.fi/en/services/guidelines-on-data-management-and-security-for-bachelors-and-masters-thesis-advisors"
+          }
+        ]
+      },
+      {
+        "heading": "Further reading and materials",
+        "items": [
+          {
+            "text": "Handling personal data in a nutshell.",
+            "url": "https://www.aalto.fi/sites/default/files/2023-10/Handling%20personal%20data%20in%20a%20nutshell_0.pdf"
+          },
+          {
+            "text": "Ethical review of research and DPIA.",
+            "url": "https://www.aalto.fi/en/for-personnel-highlights-and-support-for-your-work/ethical-review-of-research-and-dpia"
+          },
+          {
+            "text": "Anonymisation and Personal Data - Finnish Social Science Data Archive (FSD)",
+            "url": "https://www.fsd.tuni.fi/en/services/data-management-guidelines/anonymisation-and-identifiers/"
+          },
+          {
+            "text": "Home | Data Protection Ombudsman’s Office",
+            "url": "https://tietosuoja.fi/en/home"
+          }
+        ]
+      }
+    ]
+  },
+  "5.2": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Responsible Internationalisation - export control, sanctions, and research security | Aalto University",
+            "url": "https://www.aalto.fi/en/services/responsible-internationalisation-export-control-sanctions-and-research-security"
+          },
+          {
+            "text": "Control lists | Aalto University",
+            "url": "https://www.aalto.fi/en/services/control-lists"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "EU Sanctions Map",
+            "url": "https://sanctionsmap.eu/#/main"
+          }
+        ]
+      }
+    ]
+  },
+  "5.3": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Responsible use of Artificial Intelligence in the research process | Aalto University",
+            "url": "https://www.aalto.fi/en/services/responsible-use-of-artificial-intelligence-in-the-research-process"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Regulation - EU - 2024/1689 - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/eng"
+          },
+          {
+            "text": "EUR-Lex - 12012P/TXT - EN - EUR-Lex",
+            "url": "https://eur-lex.europa.eu/eli/treaty/char_2012/oj/eng"
+          },
+          {
+            "text": "Release of the AI Act E-tool | Lean Entries",
+            "url": "https://www.leanentries.com/release-of-the-ai-act-e-tool/"
+          },
+          {
+            "text": "European AI Office | Shaping Europe’s digital future",
+            "url": "https://digital-strategy.ec.europa.eu/en/policies/ai-office"
+          },
+          {
+            "text": "Second Draft of the General-Purpose AI Code of Practice published, written by independent experts | Shaping Europe’s digital future",
+            "url": "https://digital-strategy.ec.europa.eu/en/library/second-draft-general-purpose-ai-code-practice-published-written-independent-experts"
+          }
+        ]
+      }
+    ]
+  },
+  "5.4": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Research and copyright | Aalto University",
+            "url": "https://www.aalto.fi/en/research-art/research-and-copyright"
+          },
+          {
+            "text": "Innovation services unit | Aalto University",
+            "url": "https://www.aalto.fi/en/services/innovation-services-unit"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Tekijänoikeusneuvoston lausunnot - OKM - Opetus- ja kulttuuriministeriö",
+            "url": "https://okm.fi/tekijanoikeusneuvosto#:~:text=Tekij%C3%A4noikeusneuvoston%20teht%C3%A4v%C3%A4n%C3%A4%20on%20avustaa%20opetus-%20ja%20kulttuuriministeri%C3%B6t%C3%A4%20tekij%C3%A4noikeutta,koskevien%20asioiden%20k%C3%A4sittelyss%C3%A4%20sek%C3%A4%20antaa%20lausuntoja%20tekij%C3%A4noikeuslain%20soveltamisesta."
+          },
+          {
+            "text": "Home - EUIPO",
+            "url": "https://www.euipo.europa.eu/en"
+          }
+        ]
+      }
+    ]
+  },
+  "6.1": {
+    "sections": [
+      {
+        "heading": "Links",
+        "items": [
+          {
+            "text": "CSC - IT Centre for Science",
+            "url": "http://csc.fi/"
+          }
+        ]
+      },
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Classification of information (Aalto University)",
+            "url": "https://www.aalto.fi/en/information-processing/classification-of-information?check_logged_in=1"
+          },
+          {
+            "text": "Classification of information: services for storage and computing (Aalto University)",
+            "url": "https://www.aalto.fi/en/cyber-security/classification-of-information-basic-instructions-and-services"
+          },
+          {
+            "text": "SECWORK: secure data storage (Aalto University)",
+            "url": "https://www.aalto.fi/en/services/secure-data-storage-secwork"
+          },
+          {
+            "text": "SECDATA: secure operating environment for sensitive data (Aalto University)",
+            "url": "https://www.aalto.fi/en/services/secure-operating-environment-for-sensitive-data"
+          }
+        ]
+      },
+      {
+        "heading": "Other useful resources",
+        "items": [
+          {
+            "text": "CSC: Services for sensitive data",
+            "url": "https://research.csc.fi/sensitive-data/"
+          }
+        ]
+      }
+    ]
+  },
+  "X2.1": {
+    "sections": [
+      {
+        "heading": "European Code of Conduct for Research Integrity",
+        "items": [
+          {
+            "text": "The European Code of Conduct for Research Integrity – ALLEA",
+            "url": "https://allea.org/code-of-conduct/"
+          },
+          {
+            "text": "The European Code of Conduct for Research Integrity, revised edition 2023 (PDF) – ALLEA",
+            "url": "https://allea.org/wp-content/uploads/2023/06/European-Code-of-Conduct-Revised-Edition-2023.pdf"
+          },
+          {
+            "text": "The Finnish Code of Conduct for Research Integrity: The RI guidelines 2023 (TENK)",
+            "url": "https://tenk.fi/sites/default/files/2023-11/RI_Guidelines_2023.pdf"
+          }
+        ]
+      },
+      {
+        "heading": "European networks and resources",
+        "items": [
+          {
+            "text": "ENRIO – European Network of Research Integrity Offices",
+            "url": "https://www.enrio.eu/"
+          },
+          {
+            "text": "ENRIO Handbook: Recommendations for the investigation of research misconduct (2019)",
+            "url": "https://www.enrio.eu/wp-content/uploads/2019/03/INV-Handbook_ENRIO_web_final.pdf"
+          },
+          {
+            "text": "The Embassy of Good Science",
+            "url": "https://embassy.science/wiki/Main_Page"
+          }
+        ]
+      },
+      {
+        "heading": "European Commission",
+        "items": [
+          {
+            "text": "Research Ethics and Integrity – European Commission, Research and Innovation",
+            "url": "https://research-and-innovation.ec.europa.eu/strategy/support-policy-making/scientific-support-eu-policies/research-ethics-and-integrity_en"
+          },
+          {
+            "text": "Horizon Europe support for research ethics and integrity – European Research Area",
+            "url": "https://european-research-area.ec.europa.eu/horizon-europe-support-research-ethics-and-integrity"
+          },
+          {
+            "text": "Guideline for Promoting Research Integrity in Research Performing Organisations (Horizon Europe)",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/guideline-for-promoting-research-integrity-in-research-performing-organisations_horizon_en.pdf"
+          }
+        ]
+      },
+      {
+        "heading": "Beyond Europe",
+        "items": [
+          {
+            "text": "Singapore Statement on Research Integrity (World Conferences on Research Integrity, 2010)",
+            "url": "https://www.wcrif.org/guidance/singapore-statement"
+          },
+          {
+            "text": "Montreal Statement on Research Integrity in Cross-Boundary Research Collaborations (WCRI, 2013)",
+            "url": "https://www.wcrif.org/guidance/montreal-statement"
+          },
+          {
+            "text": "Hong Kong Principles for assessing researchers (WCRI, 2019)",
+            "url": "https://www.wcrif.org/guidance/hong-kong-principles"
+          },
+          {
+            "text": "Cape Town Statement on fostering research integrity through fairness and equity (WCRI, 2023)",
+            "url": "https://www.wcrif.org/guidance/cape-town-statement"
+          },
+          {
+            "text": "Recommendation on Science and Scientific Researchers (UNESCO, 2017)",
+            "url": "https://www.unesco.org/en/legal-affairs/recommendation-science-and-scientific-researchers"
+          },
+          {
+            "text": "Integrity and security in the global research ecosystem (OECD Global Science Forum, 2022)",
+            "url": "https://www.oecd.org/en/publications/2022/06/integrity-and-security-in-the-global-research-ecosystem_2bd8511d.html"
+          },
+          {
+            "text": "Facilitating International Research Misconduct Investigations (OECD Global Science Forum)",
+            "url": "https://www.oecd.org/content/dam/oecd/en/networks/global-science-forum/facilitating-international-research-misconduct-investigations.pdf"
+          },
+          {
+            "text": "Doing Global Science: A Guide to Responsible Conduct in the Global Research Enterprise (InterAcademy Partnership, 2016)",
+            "url": "https://www.interacademies.org/publication/doing-global-science-guide-responsible-conduct-global-research-enterprise"
+          },
+          {
+            "text": "Fostering Integrity in Research (US National Academies, 2017)",
+            "url": "https://nap.nationalacademies.org/catalog/21896/fostering-integrity-in-research"
+          }
+        ]
+      }
+    ]
+  },
+  "X3.1": {
+    "sections": [
+      {
+        "heading": "International human rights",
+        "items": [
+          {
+            "text": "Universal Declaration of Human Rights (UN, 1948)",
+            "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+          },
+          {
+            "text": "International Covenant on Civil and Political Rights (UN, 1966)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-civil-and-political-rights"
+          },
+          {
+            "text": "International Covenant on Economic, Social and Cultural Rights (UN, 1966) – Article 15: the right to enjoy the benefits of scientific progress",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-economic-social-and-cultural-rights"
+          },
+          {
+            "text": "Convention on the Rights of the Child (UN, 1989)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child"
+          },
+          {
+            "text": "Convention on the Rights of Persons with Disabilities (UN, 2006)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities"
+          },
+          {
+            "text": "Convention on the Elimination of All Forms of Discrimination against Women (UN, 1979)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-elimination-all-forms-discrimination-against-women"
+          },
+          {
+            "text": "International Convention on the Elimination of All Forms of Racial Discrimination (UN, 1965)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-convention-elimination-all-forms-racial"
+          },
+          {
+            "text": "Declaration on the Rights of Indigenous Peoples (UN, 2007)",
+            "url": "https://social.desa.un.org/issues/indigenous-peoples/united-nations-declaration-on-the-rights-of-indigenous-peoples"
+          }
+        ]
+      },
+      {
+        "heading": "European fundamental rights",
+        "items": [
+          {
+            "text": "European Convention on Human Rights (Council of Europe, 1950)",
+            "url": "https://www.echr.coe.int/documents/d/echr/convention_eng"
+          },
+          {
+            "text": "Charter of Fundamental Rights of the European Union (2000/2009)",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT"
+          },
+          {
+            "text": "European Social Charter (Council of Europe)",
+            "url": "https://www.coe.int/en/web/european-social-charter"
+          },
+          {
+            "text": "EU Agency for Fundamental Rights (FRA)",
+            "url": "https://fra.europa.eu/en"
+          }
+        ]
+      },
+      {
+        "heading": "Human rights in research and science",
+        "items": [
+          {
+            "text": "Convention on Human Rights and Biomedicine – Oviedo Convention (Council of Europe, 1997)",
+            "url": "https://www.coe.int/en/web/bioethics/oviedo-convention"
+          },
+          {
+            "text": "Universal Declaration on Bioethics and Human Rights (UNESCO, 2005)",
+            "url": "https://www.unesco.org/en/legal-affairs/universal-declaration-bioethics-and-human-rights"
+          },
+          {
+            "text": "Universal Declaration on the Human Genome and Human Rights (UNESCO, 1997)",
+            "url": "https://www.unesco.org/en/legal-affairs/universal-declaration-human-genome-and-human-rights"
+          },
+          {
+            "text": "Recommendation on Science and Scientific Researchers (UNESCO, 2017)",
+            "url": "https://www.unesco.org/en/legal-affairs/recommendation-science-and-scientific-researchers"
+          }
+        ]
+      },
+      {
+        "heading": "Finland",
+        "items": [
+          {
+            "text": "The Constitution of Finland (731/1999) – Chapter 2: Basic rights and liberties",
+            "url": "https://www.finlex.fi/en/legislation/translations/1999/eng/731"
+          }
+        ]
+      }
+    ]
+  },
+  "X3.2": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Different perspectives to research ethics: How to make an ethics self-assessment in research projects | Aalto University",
+            "url": "https://www.aalto.fi/en/research-art/different-perspectives-to-research-ethics-how-to-make-an-ethics-self-assessment-in-research-projects"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "EU Grants: How to complete your ethics self-assessment (European Commission)",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf"
+          },
+          {
+            "text": "Special procedures: Ethics review, security scrutiny, ownership control check – EU Funding & Tenders Online Manual",
+            "url": "https://webgate.ec.europa.eu/funding-tenders-opportunities/spaces/OM/pages/1867946/Special+procedures+Ethics+review+security+scrutiny+Ownership+control+check"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.1": {
+    "sections": [
+      {
+        "heading": "Data, privacy, AI, cybersecurity and digital research",
+        "items": [
+          {
+            "text": "General Data Protection Regulation – GDPR, Regulation (EU) 2016/679",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+          },
+          {
+            "text": "ePrivacy Directive 2002/58/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2002/58/oj/eng"
+          },
+          {
+            "text": "Open Data Directive (EU) 2019/1024",
+            "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj/eng"
+          },
+          {
+            "text": "Data Governance Act, Regulation (EU) 2022/868",
+            "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj/eng"
+          },
+          {
+            "text": "Data Act, Regulation (EU) 2023/2854",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj/eng"
+          },
+          {
+            "text": "AI Act, Regulation (EU) 2024/1689 – current consolidated text",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "text": "NIS2 Directive (EU) 2022/2555",
+            "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+          },
+          {
+            "text": "Cyber Resilience Act – CRA, Regulation (EU) 2024/2847",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng"
+          },
+          {
+            "text": "Digital Services Act – DSA, Regulation (EU) 2022/2065",
+            "url": "https://eur-lex.europa.eu/eli/reg/2022/2065"
+          },
+          {
+            "text": "Delegated Regulation (EU) 2025/2050",
+            "url": "https://eur-lex.europa.eu/eli/reg_del/2025/2050/oj/eng"
+          },
+          {
+            "text": "European Health Data Space – EHDS, Regulation (EU) 2025/327",
+            "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.2": {
+    "sections": [
+      {
+        "heading": "Copyright, software, intellectual property, open science and commercial cooperation",
+        "items": [
+          {
+            "text": "Copyright in the Digital Single Market Directive (EU) 2019/790",
+            "url": "https://eur-lex.europa.eu/eli/dir/2019/790/oj/eng"
+          },
+          {
+            "text": "Software Directive 2009/24/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2009/24/oj/eng"
+          },
+          {
+            "text": "Database Directive 96/9/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1996/9/oj/eng"
+          },
+          {
+            "text": "Trade Secrets Directive (EU) 2016/943",
+            "url": "https://eur-lex.europa.eu/eli/dir/2016/943/oj/eng"
+          },
+          {
+            "text": "Biotechnology Inventions Directive 98/44/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1998/44/oj/eng"
+          },
+          {
+            "text": "Horizon Europe Regulation (EU) 2021/695",
+            "url": "https://eur-lex.europa.eu/eli/reg/2021/695/oj/eng"
+          },
+          {
+            "text": "R&D Block Exemption Regulation (EU) 2023/1066",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/1066/oj/eng"
+          },
+          {
+            "text": "Technology Transfer Block Exemption Regulation (EU) 2026/877",
+            "url": "https://eur-lex.europa.eu/eli/reg/2026/877/oj/eng"
+          },
+          {
+            "text": "General Block Exemption Regulation – GBER, Regulation (EU) No 651/2014",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0651-20230701"
+          },
+          {
+            "text": "2022 R&D&I State-aid Framework",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC1028%2803%29"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.3": {
+    "sections": [
+      {
+        "heading": "Human, health, pharmaceutical and medical-device research",
+        "items": [
+          {
+            "text": "Clinical Trials Regulation (EU) No 536/2014",
+            "url": "https://eur-lex.europa.eu/eli/reg/2014/536/oj/eng"
+          },
+          {
+            "text": "Medical Devices Regulation – MDR, Regulation (EU) 2017/745",
+            "url": "https://eur-lex.europa.eu/eli/reg/2017/745/oj/eng"
+          },
+          {
+            "text": "In Vitro Diagnostic Medical Devices Regulation – IVDR, Regulation (EU) 2017/746",
+            "url": "https://eur-lex.europa.eu/eli/reg/2017/746/oj/eng"
+          },
+          {
+            "text": "Medicinal Products Directive 2001/83/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2001/83/oj/eng"
+          },
+          {
+            "text": "Regulation (EC) No 726/2004",
+            "url": "https://eur-lex.europa.eu/eli/reg/2004/726/oj/eng"
+          },
+          {
+            "text": "Advanced Therapy Medicinal Products Regulation (EC) No 1394/2007",
+            "url": "https://eur-lex.europa.eu/eli/reg/2007/1394/oj/eng"
+          },
+          {
+            "text": "European Health Data Space Regulation (EU) 2025/327",
+            "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"
+          },
+          {
+            "text": "Health Technology Assessment Regulation (EU) 2021/2282",
+            "url": "https://eur-lex.europa.eu/eli/reg/2021/2282/oj/eng"
+          },
+          {
+            "text": "SoHO Regulation (EU) 2024/1938",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1938/oj/eng"
+          },
+          {
+            "text": "Euratom Basic Safety Standards Directive 2013/59/Euratom",
+            "url": "https://eur-lex.europa.eu/eli/dir/2013/59/oj/eng"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.4": {
+    "sections": [
+      {
+        "heading": "Biotechnology, chemicals, animals, workplace safety, environment and climate",
+        "items": [
+          {
+            "text": "Directive 2010/63/EU on animals used for scientific purposes",
+            "url": "https://eur-lex.europa.eu/eli/dir/2010/63/oj/eng"
+          },
+          {
+            "text": "Nagoya Protocol Compliance Regulation (EU) No 511/2014",
+            "url": "https://eur-lex.europa.eu/eli/reg/2014/511/oj/eng"
+          },
+          {
+            "text": "Contained Use of Genetically Modified Micro-organisms Directive 2009/41/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2009/41/oj/eng"
+          },
+          {
+            "text": "GMO Deliberate Release Directive 2001/18/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2001/18/oj/eng"
+          },
+          {
+            "text": "REACH Regulation (EC) No 1907/2006",
+            "url": "https://eur-lex.europa.eu/eli/reg/2006/1907/oj/eng"
+          },
+          {
+            "text": "Classification, Labelling and Packaging Regulation – CLP, Regulation (EC) No 1272/2008",
+            "url": "https://eur-lex.europa.eu/eli/reg/2008/1272/oj/eng"
+          },
+          {
+            "text": "Biological Agents at Work Directive 2000/54/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2000/54/oj/eng"
+          },
+          {
+            "text": "Occupational Safety Framework Directive 89/391/EEC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1989/391/oj/eng"
+          },
+          {
+            "text": "Chemical Agents Directive 98/24/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1998/24/oj/eng"
+          },
+          {
+            "text": "Carcinogens, Mutagens and Reprotoxic Substances Directive 2004/37/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2004/37/oj/eng"
+          },
+          {
+            "text": "Industrial Emissions Directive 2010/75/EU, as amended",
+            "url": "https://eur-lex.europa.eu/eli/dir/2010/75/2024-08-04/eng"
+          },
+          {
+            "text": "EU Emissions Trading System Directive 2003/87/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2003/87/oj/eng"
+          },
+          {
+            "text": "European Climate Law, Regulation (EU) 2021/1119",
+            "url": "https://eur-lex.europa.eu/eli/reg/2021/1119/oj/eng"
+          },
+          {
+            "text": "Environmental Impact Assessment Directive 2011/92/EU",
+            "url": "https://eur-lex.europa.eu/eli/dir/2011/92/oj/eng"
+          },
+          {
+            "text": "Habitats Directive 92/43/EEC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1992/43/oj/eng"
+          },
+          {
+            "text": "Birds Directive 2009/147/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2009/147/oj/eng"
+          },
+          {
+            "text": "Environmental Liability Directive 2004/35/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2004/35/oj/eng"
+          },
+          {
+            "text": "Waste Framework Directive 2008/98/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2008/98/oj/eng"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.5": {
+    "sections": [
+      {
+        "heading": "High-risk technologies, exports, products and commercialisation",
+        "items": [
+          {
+            "text": "Dual-Use Regulation (EU) 2021/821",
+            "url": "https://eur-lex.europa.eu/eli/reg/2021/821/oj/eng"
+          },
+          {
+            "text": "AI Act, Regulation (EU) 2024/1689",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "text": "Cyber Resilience Act, Regulation (EU) 2024/2847",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng"
+          },
+          {
+            "text": "General Product Safety Regulation (EU) 2023/988",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng"
+          },
+          {
+            "text": "Product Liability Directive (EU) 2024/2853",
+            "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng"
+          },
+          {
+            "text": "Foreign Direct Investment Screening Regulation (EU) 2019/452",
+            "url": "https://eur-lex.europa.eu/eli/reg/2019/452/oj/eng"
+          },
+          {
+            "text": "Biotechnology Inventions Directive 98/44/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1998/44/oj/eng"
+          },
+          {
+            "text": "Cosmetics Regulation (EC) No 1223/2009",
+            "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj/eng"
+          },
+          {
+            "text": "Novel Foods Regulation (EU) 2015/2283",
+            "url": "https://eur-lex.europa.eu/eli/reg/2015/2283/oj/eng"
+          },
+          {
+            "text": "Biocidal Products Regulation (EU) No 528/2012",
+            "url": "https://eur-lex.europa.eu/eli/reg/2012/528/oj/eng"
+          },
+          {
+            "text": "Plant Protection Products Regulation (EC) No 1107/2009",
+            "url": "https://eur-lex.europa.eu/eli/reg/2009/1107/oj/eng"
+          },
+          {
+            "text": "Veterinary Medicinal Products Regulation (EU) 2019/6",
+            "url": "https://eur-lex.europa.eu/eli/reg/2019/6/oj/eng"
+          }
+        ]
+      }
+    ]
+  },
+  "X3.3": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Research permissions process for Aalto University | Aalto University",
+            "url": "https://www.aalto.fi/en/services/research-permissions-process-for-aalto-university"
+          },
+          {
+            "text": "Research Ethics Committee | Aalto University (research involving your own students needs both an ethics review and a research permit, applied for together)",
+            "url": "https://www.aalto.fi/en/services/research-ethics-review-research-ethics-committee"
+          }
+        ]
+      }
+    ]
+  }
+}

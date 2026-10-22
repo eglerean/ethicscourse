@@ -2,7 +2,7 @@
   "name": "Responsible research",
   "children": [
     {
-      "name": "Research ethics (3)",
+      "name": "Research ethics",
       "children": [
         {
           "name": "Ethical issues",
@@ -14,13 +14,10 @@
               "name": "Humans and participants (6.6)"
             },
             {
-              "name": "Global south (3.3)"
+              "name": "Nature and the environment (3.3)"
             },
             {
-              "name": "Nature and the environment (3.4)"
-            },
-            {
-              "name": "Animals (3.5)"
+              "name": "Animals (3.4)"
             },
             {
               "name": "Artistic research (6.3)"
@@ -29,7 +26,10 @@
               "name": "Artificial Intelligence (6.5)"
             },
             {
-              "name": "Fundamental rights (link)"
+              "name": "Fundamental rights (X3.1)"
+            },
+            {
+              "name": "Global south"
             }
           ]
         },
@@ -37,7 +37,10 @@
           "name": "Processes",
           "children": [
             {
-              "name": "Ethics self-assessment (link)"
+              "name": "Ethics self-assessment (X3.2)"
+            },
+            {
+              "name": "Research permit (X3.3)"
             },
             {
               "name": "Ethical review",
@@ -63,13 +66,13 @@
       ]
     },
     {
-      "name": "Research integrity (2)",
+      "name": "Research integrity",
       "children": [
         {
           "name": "Responsible conduct of research (2.1)",
           "children": [
             {
-              "name": "Honesty and reliability (link)"
+              "name": "Reliability, Honesty, Respect, Accountability (X2.1)"
             },
             {
               "name": "Authorship and attribution (2.3)"
@@ -139,7 +142,7 @@
       "name": "Research security",
       "children": [
         {
-          "name": "Research-security risks (5.2)",
+          "name": "Research-security risks",
           "children": [
             {
               "name": "Partner risks (5.2)",
@@ -150,7 +153,7 @@
               ]
             },
             {
-              "name": "Knowledge / technology transfer (link)"
+              "name": "Knowledge / technology transfer (5.2)"
             },
             {
               "name": "Foreign interference (5.2)"
@@ -167,7 +170,7 @@
           "name": "Processes",
           "children": [
             {
-              "name": "Research-security assessment (link)"
+              "name": "Research-security assessment"
             }
           ]
         }
@@ -218,7 +221,7 @@
       "name": "Research compliance",
       "children": [
         {
-          "name": "Legal and regulatory compliance (5)",
+          "name": "Legal and regulatory compliance",
           "children": [
             {
               "name": "Data protection / GDPR (5.1)",
@@ -254,11 +257,26 @@
                   "name": "Permits / authorisations (link?)"
                 }
               ]
+            },
+            {
+              "name": "Extra: Data, Privacy, AI (X5.1)"
+            },
+            {
+              "name": "Extra: Copyright, Software (X5.2)"
+            },
+            {
+              "name": "Extra: Human, Health (X5.3)"
+            },
+            {
+              "name": "Extra: Biotechnology, Environment (X5.4)"
+            },
+            {
+              "name": "Extra: High-risk Technologies (X5.5)"
             }
           ]
         },
         {
-          "name": "Contractual and funder compliance (4)",
+          "name": "Contractual and funder compliance",
           "children": [
             {
               "name": "Corporate Collaborations (4.1)"

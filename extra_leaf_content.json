@@ -1,0 +1,535 @@
+{
+  "X2.1": {
+    "sections": [
+      {
+        "heading": "European Code of Conduct for Research Integrity",
+        "items": [
+          {
+            "text": "The European Code of Conduct for Research Integrity – ALLEA",
+            "url": "https://allea.org/code-of-conduct/"
+          },
+          {
+            "text": "The European Code of Conduct for Research Integrity, revised edition 2023 (PDF) – ALLEA",
+            "url": "https://allea.org/wp-content/uploads/2023/06/European-Code-of-Conduct-Revised-Edition-2023.pdf"
+          },
+          {
+            "text": "The Finnish Code of Conduct for Research Integrity: The RI guidelines 2023 (TENK)",
+            "url": "https://tenk.fi/sites/default/files/2023-11/RI_Guidelines_2023.pdf"
+          }
+        ]
+      },
+      {
+        "heading": "European networks and resources",
+        "items": [
+          {
+            "text": "ENRIO – European Network of Research Integrity Offices",
+            "url": "https://www.enrio.eu/"
+          },
+          {
+            "text": "ENRIO Handbook: Recommendations for the investigation of research misconduct (2019)",
+            "url": "https://www.enrio.eu/wp-content/uploads/2019/03/INV-Handbook_ENRIO_web_final.pdf"
+          },
+          {
+            "text": "The Embassy of Good Science",
+            "url": "https://embassy.science/wiki/Main_Page"
+          }
+        ]
+      },
+      {
+        "heading": "European Commission",
+        "items": [
+          {
+            "text": "Research Ethics and Integrity – European Commission, Research and Innovation",
+            "url": "https://research-and-innovation.ec.europa.eu/strategy/support-policy-making/scientific-support-eu-policies/research-ethics-and-integrity_en"
+          },
+          {
+            "text": "Horizon Europe support for research ethics and integrity – European Research Area",
+            "url": "https://european-research-area.ec.europa.eu/horizon-europe-support-research-ethics-and-integrity"
+          },
+          {
+            "text": "Guideline for Promoting Research Integrity in Research Performing Organisations (Horizon Europe)",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/guideline-for-promoting-research-integrity-in-research-performing-organisations_horizon_en.pdf"
+          }
+        ]
+      },
+      {
+        "heading": "Beyond Europe",
+        "items": [
+          {
+            "text": "Singapore Statement on Research Integrity (World Conferences on Research Integrity, 2010)",
+            "url": "https://www.wcrif.org/guidance/singapore-statement"
+          },
+          {
+            "text": "Montreal Statement on Research Integrity in Cross-Boundary Research Collaborations (WCRI, 2013)",
+            "url": "https://www.wcrif.org/guidance/montreal-statement"
+          },
+          {
+            "text": "Hong Kong Principles for assessing researchers (WCRI, 2019)",
+            "url": "https://www.wcrif.org/guidance/hong-kong-principles"
+          },
+          {
+            "text": "Cape Town Statement on fostering research integrity through fairness and equity (WCRI, 2023)",
+            "url": "https://www.wcrif.org/guidance/cape-town-statement"
+          },
+          {
+            "text": "Recommendation on Science and Scientific Researchers (UNESCO, 2017)",
+            "url": "https://www.unesco.org/en/legal-affairs/recommendation-science-and-scientific-researchers"
+          },
+          {
+            "text": "Integrity and security in the global research ecosystem (OECD Global Science Forum, 2022)",
+            "url": "https://www.oecd.org/en/publications/2022/06/integrity-and-security-in-the-global-research-ecosystem_2bd8511d.html"
+          },
+          {
+            "text": "Facilitating International Research Misconduct Investigations (OECD Global Science Forum)",
+            "url": "https://www.oecd.org/content/dam/oecd/en/networks/global-science-forum/facilitating-international-research-misconduct-investigations.pdf"
+          },
+          {
+            "text": "Doing Global Science: A Guide to Responsible Conduct in the Global Research Enterprise (InterAcademy Partnership, 2016)",
+            "url": "https://www.interacademies.org/publication/doing-global-science-guide-responsible-conduct-global-research-enterprise"
+          },
+          {
+            "text": "Fostering Integrity in Research (US National Academies, 2017)",
+            "url": "https://nap.nationalacademies.org/catalog/21896/fostering-integrity-in-research"
+          }
+        ]
+      }
+    ]
+  },
+  "X3.1": {
+    "sections": [
+      {
+        "heading": "International human rights",
+        "items": [
+          {
+            "text": "Universal Declaration of Human Rights (UN, 1948)",
+            "url": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+          },
+          {
+            "text": "International Covenant on Civil and Political Rights (UN, 1966)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-civil-and-political-rights"
+          },
+          {
+            "text": "International Covenant on Economic, Social and Cultural Rights (UN, 1966) – Article 15: the right to enjoy the benefits of scientific progress",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-covenant-economic-social-and-cultural-rights"
+          },
+          {
+            "text": "Convention on the Rights of the Child (UN, 1989)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-child"
+          },
+          {
+            "text": "Convention on the Rights of Persons with Disabilities (UN, 2006)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-rights-persons-disabilities"
+          },
+          {
+            "text": "Convention on the Elimination of All Forms of Discrimination against Women (UN, 1979)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/convention-elimination-all-forms-discrimination-against-women"
+          },
+          {
+            "text": "International Convention on the Elimination of All Forms of Racial Discrimination (UN, 1965)",
+            "url": "https://www.ohchr.org/en/instruments-mechanisms/instruments/international-convention-elimination-all-forms-racial"
+          },
+          {
+            "text": "Declaration on the Rights of Indigenous Peoples (UN, 2007)",
+            "url": "https://social.desa.un.org/issues/indigenous-peoples/united-nations-declaration-on-the-rights-of-indigenous-peoples"
+          }
+        ]
+      },
+      {
+        "heading": "European fundamental rights",
+        "items": [
+          {
+            "text": "European Convention on Human Rights (Council of Europe, 1950)",
+            "url": "https://www.echr.coe.int/documents/d/echr/convention_eng"
+          },
+          {
+            "text": "Charter of Fundamental Rights of the European Union (2000/2009)",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:12012P/TXT"
+          },
+          {
+            "text": "European Social Charter (Council of Europe)",
+            "url": "https://www.coe.int/en/web/european-social-charter"
+          },
+          {
+            "text": "EU Agency for Fundamental Rights (FRA)",
+            "url": "https://fra.europa.eu/en"
+          }
+        ]
+      },
+      {
+        "heading": "Human rights in research and science",
+        "items": [
+          {
+            "text": "Convention on Human Rights and Biomedicine – Oviedo Convention (Council of Europe, 1997)",
+            "url": "https://www.coe.int/en/web/bioethics/oviedo-convention"
+          },
+          {
+            "text": "Universal Declaration on Bioethics and Human Rights (UNESCO, 2005)",
+            "url": "https://www.unesco.org/en/legal-affairs/universal-declaration-bioethics-and-human-rights"
+          },
+          {
+            "text": "Universal Declaration on the Human Genome and Human Rights (UNESCO, 1997)",
+            "url": "https://www.unesco.org/en/legal-affairs/universal-declaration-human-genome-and-human-rights"
+          },
+          {
+            "text": "Recommendation on Science and Scientific Researchers (UNESCO, 2017)",
+            "url": "https://www.unesco.org/en/legal-affairs/recommendation-science-and-scientific-researchers"
+          }
+        ]
+      },
+      {
+        "heading": "Finland",
+        "items": [
+          {
+            "text": "The Constitution of Finland (731/1999) – Chapter 2: Basic rights and liberties",
+            "url": "https://www.finlex.fi/en/legislation/translations/1999/eng/731"
+          }
+        ]
+      }
+    ]
+  },
+  "X3.2": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Different perspectives to research ethics: How to make an ethics self-assessment in research projects | Aalto University",
+            "url": "https://www.aalto.fi/en/research-art/different-perspectives-to-research-ethics-how-to-make-an-ethics-self-assessment-in-research-projects"
+          }
+        ]
+      },
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "EU Grants: How to complete your ethics self-assessment (European Commission)",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf"
+          },
+          {
+            "text": "Special procedures: Ethics review, security scrutiny, ownership control check – EU Funding & Tenders Online Manual",
+            "url": "https://webgate.ec.europa.eu/funding-tenders-opportunities/spaces/OM/pages/1867946/Special+procedures+Ethics+review+security+scrutiny+Ownership+control+check"
+          }
+        ]
+      }
+    ]
+  },
+  "3.2": {
+    "sections": [
+      {
+        "heading": "Further readings and materials",
+        "items": [
+          {
+            "text": "Digipalvelut tutkijalle (Digital services for researchers) | HUS",
+            "url": "https://www.hus.fi/tutkimus-ja-opetus/tutkijan-palvelut/digipalvelut-tutkijalle"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.1": {
+    "sections": [
+      {
+        "heading": "Data, privacy, AI, cybersecurity and digital research",
+        "items": [
+          {
+            "text": "General Data Protection Regulation – GDPR, Regulation (EU) 2016/679",
+            "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/eng"
+          },
+          {
+            "text": "ePrivacy Directive 2002/58/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2002/58/oj/eng"
+          },
+          {
+            "text": "Open Data Directive (EU) 2019/1024",
+            "url": "https://eur-lex.europa.eu/eli/dir/2019/1024/oj/eng"
+          },
+          {
+            "text": "Data Governance Act, Regulation (EU) 2022/868",
+            "url": "https://eur-lex.europa.eu/eli/reg/2022/868/oj/eng"
+          },
+          {
+            "text": "Data Act, Regulation (EU) 2023/2854",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/2854/oj/eng"
+          },
+          {
+            "text": "AI Act, Regulation (EU) 2024/1689 – current consolidated text",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "text": "NIS2 Directive (EU) 2022/2555",
+            "url": "https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng"
+          },
+          {
+            "text": "Cyber Resilience Act – CRA, Regulation (EU) 2024/2847",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng"
+          },
+          {
+            "text": "Digital Services Act – DSA, Regulation (EU) 2022/2065",
+            "url": "https://eur-lex.europa.eu/eli/reg/2022/2065"
+          },
+          {
+            "text": "Delegated Regulation (EU) 2025/2050",
+            "url": "https://eur-lex.europa.eu/eli/reg_del/2025/2050/oj/eng"
+          },
+          {
+            "text": "European Health Data Space – EHDS, Regulation (EU) 2025/327",
+            "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.2": {
+    "sections": [
+      {
+        "heading": "Copyright, software, intellectual property, open science and commercial cooperation",
+        "items": [
+          {
+            "text": "Copyright in the Digital Single Market Directive (EU) 2019/790",
+            "url": "https://eur-lex.europa.eu/eli/dir/2019/790/oj/eng"
+          },
+          {
+            "text": "Software Directive 2009/24/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2009/24/oj/eng"
+          },
+          {
+            "text": "Database Directive 96/9/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1996/9/oj/eng"
+          },
+          {
+            "text": "Trade Secrets Directive (EU) 2016/943",
+            "url": "https://eur-lex.europa.eu/eli/dir/2016/943/oj/eng"
+          },
+          {
+            "text": "Biotechnology Inventions Directive 98/44/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1998/44/oj/eng"
+          },
+          {
+            "text": "Horizon Europe Regulation (EU) 2021/695",
+            "url": "https://eur-lex.europa.eu/eli/reg/2021/695/oj/eng"
+          },
+          {
+            "text": "R&D Block Exemption Regulation (EU) 2023/1066",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/1066/oj/eng"
+          },
+          {
+            "text": "Technology Transfer Block Exemption Regulation (EU) 2026/877",
+            "url": "https://eur-lex.europa.eu/eli/reg/2026/877/oj/eng"
+          },
+          {
+            "text": "General Block Exemption Regulation – GBER, Regulation (EU) No 651/2014",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02014R0651-20230701"
+          },
+          {
+            "text": "2022 R&D&I State-aid Framework",
+            "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52022XC1028%2803%29"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.3": {
+    "sections": [
+      {
+        "heading": "Human, health, pharmaceutical and medical-device research",
+        "items": [
+          {
+            "text": "Clinical Trials Regulation (EU) No 536/2014",
+            "url": "https://eur-lex.europa.eu/eli/reg/2014/536/oj/eng"
+          },
+          {
+            "text": "Medical Devices Regulation – MDR, Regulation (EU) 2017/745",
+            "url": "https://eur-lex.europa.eu/eli/reg/2017/745/oj/eng"
+          },
+          {
+            "text": "In Vitro Diagnostic Medical Devices Regulation – IVDR, Regulation (EU) 2017/746",
+            "url": "https://eur-lex.europa.eu/eli/reg/2017/746/oj/eng"
+          },
+          {
+            "text": "Medicinal Products Directive 2001/83/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2001/83/oj/eng"
+          },
+          {
+            "text": "Regulation (EC) No 726/2004",
+            "url": "https://eur-lex.europa.eu/eli/reg/2004/726/oj/eng"
+          },
+          {
+            "text": "Advanced Therapy Medicinal Products Regulation (EC) No 1394/2007",
+            "url": "https://eur-lex.europa.eu/eli/reg/2007/1394/oj/eng"
+          },
+          {
+            "text": "European Health Data Space Regulation (EU) 2025/327",
+            "url": "https://eur-lex.europa.eu/eli/reg/2025/327/oj/eng"
+          },
+          {
+            "text": "Health Technology Assessment Regulation (EU) 2021/2282",
+            "url": "https://eur-lex.europa.eu/eli/reg/2021/2282/oj/eng"
+          },
+          {
+            "text": "SoHO Regulation (EU) 2024/1938",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1938/oj/eng"
+          },
+          {
+            "text": "Euratom Basic Safety Standards Directive 2013/59/Euratom",
+            "url": "https://eur-lex.europa.eu/eli/dir/2013/59/oj/eng"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.4": {
+    "sections": [
+      {
+        "heading": "Biotechnology, chemicals, animals, workplace safety, environment and climate",
+        "items": [
+          {
+            "text": "Directive 2010/63/EU on animals used for scientific purposes",
+            "url": "https://eur-lex.europa.eu/eli/dir/2010/63/oj/eng"
+          },
+          {
+            "text": "Nagoya Protocol Compliance Regulation (EU) No 511/2014",
+            "url": "https://eur-lex.europa.eu/eli/reg/2014/511/oj/eng"
+          },
+          {
+            "text": "Contained Use of Genetically Modified Micro-organisms Directive 2009/41/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2009/41/oj/eng"
+          },
+          {
+            "text": "GMO Deliberate Release Directive 2001/18/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2001/18/oj/eng"
+          },
+          {
+            "text": "REACH Regulation (EC) No 1907/2006",
+            "url": "https://eur-lex.europa.eu/eli/reg/2006/1907/oj/eng"
+          },
+          {
+            "text": "Classification, Labelling and Packaging Regulation – CLP, Regulation (EC) No 1272/2008",
+            "url": "https://eur-lex.europa.eu/eli/reg/2008/1272/oj/eng"
+          },
+          {
+            "text": "Biological Agents at Work Directive 2000/54/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2000/54/oj/eng"
+          },
+          {
+            "text": "Occupational Safety Framework Directive 89/391/EEC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1989/391/oj/eng"
+          },
+          {
+            "text": "Chemical Agents Directive 98/24/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1998/24/oj/eng"
+          },
+          {
+            "text": "Carcinogens, Mutagens and Reprotoxic Substances Directive 2004/37/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2004/37/oj/eng"
+          },
+          {
+            "text": "Industrial Emissions Directive 2010/75/EU, as amended",
+            "url": "https://eur-lex.europa.eu/eli/dir/2010/75/2024-08-04/eng"
+          },
+          {
+            "text": "EU Emissions Trading System Directive 2003/87/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2003/87/oj/eng"
+          },
+          {
+            "text": "European Climate Law, Regulation (EU) 2021/1119",
+            "url": "https://eur-lex.europa.eu/eli/reg/2021/1119/oj/eng"
+          },
+          {
+            "text": "Environmental Impact Assessment Directive 2011/92/EU",
+            "url": "https://eur-lex.europa.eu/eli/dir/2011/92/oj/eng"
+          },
+          {
+            "text": "Habitats Directive 92/43/EEC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1992/43/oj/eng"
+          },
+          {
+            "text": "Birds Directive 2009/147/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2009/147/oj/eng"
+          },
+          {
+            "text": "Environmental Liability Directive 2004/35/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2004/35/oj/eng"
+          },
+          {
+            "text": "Waste Framework Directive 2008/98/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/2008/98/oj/eng"
+          }
+        ]
+      }
+    ]
+  },
+  "X5.5": {
+    "sections": [
+      {
+        "heading": "High-risk technologies, exports, products and commercialisation",
+        "items": [
+          {
+            "text": "Dual-Use Regulation (EU) 2021/821",
+            "url": "https://eur-lex.europa.eu/eli/reg/2021/821/oj/eng"
+          },
+          {
+            "text": "AI Act, Regulation (EU) 2024/1689",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng"
+          },
+          {
+            "text": "Cyber Resilience Act, Regulation (EU) 2024/2847",
+            "url": "https://eur-lex.europa.eu/eli/reg/2024/2847/oj/eng"
+          },
+          {
+            "text": "General Product Safety Regulation (EU) 2023/988",
+            "url": "https://eur-lex.europa.eu/eli/reg/2023/988/oj/eng"
+          },
+          {
+            "text": "Product Liability Directive (EU) 2024/2853",
+            "url": "https://eur-lex.europa.eu/eli/dir/2024/2853/oj/eng"
+          },
+          {
+            "text": "Foreign Direct Investment Screening Regulation (EU) 2019/452",
+            "url": "https://eur-lex.europa.eu/eli/reg/2019/452/oj/eng"
+          },
+          {
+            "text": "Biotechnology Inventions Directive 98/44/EC",
+            "url": "https://eur-lex.europa.eu/eli/dir/1998/44/oj/eng"
+          },
+          {
+            "text": "Cosmetics Regulation (EC) No 1223/2009",
+            "url": "https://eur-lex.europa.eu/eli/reg/2009/1223/oj/eng"
+          },
+          {
+            "text": "Novel Foods Regulation (EU) 2015/2283",
+            "url": "https://eur-lex.europa.eu/eli/reg/2015/2283/oj/eng"
+          },
+          {
+            "text": "Biocidal Products Regulation (EU) No 528/2012",
+            "url": "https://eur-lex.europa.eu/eli/reg/2012/528/oj/eng"
+          },
+          {
+            "text": "Plant Protection Products Regulation (EC) No 1107/2009",
+            "url": "https://eur-lex.europa.eu/eli/reg/2009/1107/oj/eng"
+          },
+          {
+            "text": "Veterinary Medicinal Products Regulation (EU) 2019/6",
+            "url": "https://eur-lex.europa.eu/eli/reg/2019/6/oj/eng"
+          }
+        ]
+      }
+    ]
+  },
+  "X3.3": {
+    "sections": [
+      {
+        "heading": "Aalto support",
+        "items": [
+          {
+            "text": "Research permissions process for Aalto University | Aalto University",
+            "url": "https://www.aalto.fi/en/services/research-permissions-process-for-aalto-university"
+          },
+          {
+            "text": "Research Ethics Committee | Aalto University (research involving your own students needs both an ethics review and a research permit, applied for together)",
+            "url": "https://www.aalto.fi/en/services/research-ethics-review-research-ethics-committee"
+          }
+        ]
+      }
+    ]
+  }
+}
