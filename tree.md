@@ -8,7 +8,7 @@ Responsible research
 │   │   ├── Artistic research (6.3)
 │   │   ├── Artificial Intelligence (6.5)
 │   │   ├── Fundamental rights (X3.1)
-│   │   └── Global south
+│   │   └── Global south (6.7)
 │   └── Processes
 │       ├── Ethics self-assessment (X3.2)
 │       ├── Research permit (X3.3)

@@ -1368,6 +1368,40 @@
             "url": "https://www.globalcodeofconduct.org/"
           }
         ]
+      },
+      {
+        "heading": "Finnish guidelines (TENK)",
+        "items": [
+          {
+            "text": "The ethical principles of research with human participants and ethical review in the human sciences in Finland (TENK guidelines 2019, PDF)",
+            "url": "https://tenk.fi/sites/default/files/2021-01/Ethical_review_in_human_sciences_2020.pdf"
+          },
+          {
+            "text": "Ethical review in human sciences | Finnish National Board on Research Integrity TENK",
+            "url": "https://tenk.fi/en/ethical-review/ethical-review-human-sciences"
+          }
+        ]
+      },
+      {
+        "heading": "Horizon Europe and European Commission",
+        "items": [
+          {
+            "text": "EU Grants: How to complete your ethics self-assessment – see the section on human participants (European Commission)",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/common/guidance/how-to-complete-your-ethics-self-assessment_en.pdf"
+          },
+          {
+            "text": "Ethics in Social Science and Humanities (Horizon Europe guidance)",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ethics-in-social-science-and-humanities_he_en.pdf"
+          },
+          {
+            "text": "Ethics and data protection (Horizon Europe guidance)",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/ethics-and-data-protection_he_en.pdf"
+          },
+          {
+            "text": "Guidance note – Research on refugees, asylum seekers and migrants (Horizon Europe)",
+            "url": "https://ec.europa.eu/info/funding-tenders/opportunities/docs/2021-2027/horizon/guidance/guidance-note-research-on-refugees-asylum-seekers-migrants_he_en.pdf"
+          }
+        ]
       }
     ]
   },
